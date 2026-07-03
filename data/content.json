@@ -1,0 +1,142 @@
+{
+  "hero": {
+    "preTitle": "Classic Groom & Partywear",
+    "title": "Where Tradition Meets Elegance",
+    "subtitle": "Where Tradition Meets Elegance",
+    "tagline": "Bespoke sherwanis, suits and partywear crafted in Karachi for the modern gentleman who honours heritage."
+  },
+  "features": [
+    "Premium Fabrics",
+    "Expert Stitching",
+    "Perfect Fitting",
+    "Made to Order",
+    "Ready to Wear",
+    "Eastern & Western"
+  ],
+  "about": {
+    "story": "Riwayat (روایت) began with a simple belief — that every groom deserves to wear his story. Rooted in the rich tapestry of subcontinental craftsmanship and refined by contemporary tailoring, we have dressed grooms and gentlemen across Karachi for their most important moments. From the first measurement to the final fitting, each garment is an heirloom in the making, blending heritage embroidery with the precision of modern cuts.",
+    "mission": "To preserve the art of classic tailoring while dressing the modern man with timeless elegance.",
+    "stats": [
+      { "label": "Years of Craft", "value": "15+" },
+      { "label": "Happy Clients", "value": "5000+" },
+      { "label": "Designs", "value": "800+" },
+      { "label": "Cities", "value": "12" }
+    ],
+    "promise": [
+      {
+        "title": "Premium Fabrics",
+        "description": "Hand-selected fabrics sourced for richness, drape and durability."
+      },
+      {
+        "title": "Master Craftsmanship",
+        "description": "Decades of tailoring expertise in every stitch and finish."
+      },
+      {
+        "title": "Perfect Fit",
+        "description": "Personal measurements and multiple fittings for a flawless silhouette."
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon": "scissors",
+      "title": "Bespoke Sherwani",
+      "description": "Made-to-measure sherwanis with bespoke embroidery designed around your wedding vision."
+    },
+    {
+      "icon": "shirt",
+      "title": "Tailored Suits",
+      "description": "Eastern and Western suits cut to your exact measurements for any occasion."
+    },
+    {
+      "icon": "gem",
+      "title": "Partywear & Waistcoats",
+      "description": "Statement waistcoats and partywear that turn heads at every celebration."
+    },
+    {
+      "icon": "ruler",
+      "title": "Custom Fittings",
+      "description": "Multiple personal fittings to ensure a perfect, comfortable silhouette."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Groom Styling",
+      "description": "Complete styling guidance from fabric to accessories for the big day."
+    },
+    {
+      "icon": "package",
+      "title": "Ready to Wear",
+      "description": "Curated off-the-rack pieces for those who need elegance in a hurry."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long does a custom sherwani take?",
+      "answer": "A bespoke sherwani typically takes 3 to 4 weeks from first measurement to final fitting. We recommend booking at least 6 weeks before your event."
+    },
+    {
+      "question": "Do you ship outside Karachi?",
+      "answer": "Yes. We serve clients across Pakistan and can arrange international shipping for finished garments. Contact us on WhatsApp for details."
+    },
+    {
+      "question": "Can I bring my own fabric?",
+      "answer": "Absolutely. We are happy to tailor garments from fabric you provide, or guide you to our premium in-house selection."
+    },
+    {
+      "question": "How many fittings are included?",
+      "answer": "Every bespoke order includes an initial measurement and up to two fittings to perfect the silhouette."
+    },
+    {
+      "question": "Is there a price on request option?",
+      "answer": "Yes. Bespoke and embroidered pieces are priced on request based on fabric and detailing. Enquire via WhatsApp for a quote."
+    }
+  ],
+  "process": [
+    { "step": "Consult", "description": "Share your vision and occasion with our stylist." },
+    { "step": "Fabric", "description": "Select from premium fabrics and embroidery options." },
+    { "step": "Stitch", "description": "Master tailors craft your garment by hand." },
+    { "step": "Fit", "description": "Personal fittings perfect every detail." },
+    { "step": "Deliver", "description": "Your finished heirloom, ready for the moment." }
+  ],
+  "promos": [
+    {
+      "image": "promo-wedding.png",
+      "title": "Wedding Season",
+      "subtitle": "Book your groom collection early"
+    },
+    {
+      "image": "promo-partywear.png",
+      "title": "Partywear Edit",
+      "subtitle": "Statement looks for every celebration"
+    },
+    {
+      "image": "promo-bespoke.png",
+      "title": "Bespoke Tailoring",
+      "subtitle": "Made to measure, made for you"
+    },
+    {
+      "image": "promo-accessories.png",
+      "title": "The Finishing Touch",
+      "subtitle": "Khussa, stoles & accessories"
+    }
+  ],
+  "gallery": [
+    { "image": "gallery-1.png", "caption": "Embroidered Groom Sherwani" },
+    { "image": "gallery-2.png", "caption": "Classic Three-Piece Suit" },
+    { "image": "gallery-3.png", "caption": "Velvet Partywear" },
+    { "image": "gallery-4.png", "caption": "Prince Coat Detailing" },
+    { "image": "gallery-5.png", "caption": "Wedding Day Look" },
+    { "image": "gallery-6.png", "caption": "Gold Embroidery Close-up" },
+    { "image": "gallery-7.png", "caption": "Ready to Wear Kurta" },
+    { "image": "gallery-8.png", "caption": "Groom Accessories" }
+  ],
+  "contact": {
+    "whatsapp": "920000000000",
+    "email": "hello@riwayat.pk",
+    "address": "Tariq Road, Karachi, Pakistan",
+    "phone": "+92 300 0000000",
+    "instagram": "https://instagram.com",
+    "facebook": "https://facebook.com",
+    "tiktok": "https://tiktok.com"
+  }
+}

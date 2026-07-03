@@ -1,0 +1,23 @@
+[
+  {
+    "id": "test_001",
+    "quote": "Riwayat made my wedding sherwani feel like it was made for royalty. The fit was flawless and the embroidery breathtaking.",
+    "author": "Hassan Raza",
+    "location": "Karachi",
+    "rating": 5
+  },
+  {
+    "id": "test_002",
+    "quote": "From consultation to delivery, the experience was seamless. My three-piece suit drew compliments all night.",
+    "author": "Bilal Ahmed",
+    "location": "Lahore",
+    "rating": 5
+  },
+  {
+    "id": "test_003",
+    "quote": "The attention to detail is unmatched. They truly understand classic menswear and modern tailoring alike.",
+    "author": "Usman Sheikh",
+    "location": "Islamabad",
+    "rating": 5
+  }
+]
