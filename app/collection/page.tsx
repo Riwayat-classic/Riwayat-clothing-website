@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { getContent, getProducts } from "@/lib/data"
+import { CollectionHero } from "@/components/collection/collection-hero"
 
 export const metadata: Metadata = {
   title: "Collection | Riwayat",
