@@ -1,3 +1,4 @@
+import { CollectionGrid } from "@/components/collection/grid"
 import type { Metadata } from "next"
 import { getProducts } from "@/lib/data"
 import { CollectionHero } from "@/components/collection/collection-hero"
@@ -27,6 +28,9 @@ export default async function CollectionPage() {
         <p className="mt-2 text-muted-foreground">
           Total Products: {products.length}
         </p>
+        <div className="mt-12">
+  <CollectionGrid products={products} />
+</div>
       </section>
     </main>
   )
