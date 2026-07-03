@@ -35,16 +35,23 @@ const [category, setCategory] = useState("all")
 
   return (
     <>
-      <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-        <CollectionSearch
-          value={search}
-          onChange={setSearch}
-        />
+     <div className="mb-10 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+  <div className="flex flex-col gap-4 md:flex-row">
+    <CollectionSearch
+      value={search}
+      onChange={setSearch}
+    />
 
-        <p className="text-sm text-muted-foreground">
-          Showing {filteredProducts.length} of {products.length} products
-        </p>
-      </div>
+    <CollectionFilter
+      value={category}
+      onChange={setCategory}
+    />
+  </div>
+
+  <p className="text-sm text-muted-foreground">
+    Showing {filteredProducts.length} of {products.length} products
+  </p>
+</div>
 
       <CollectionGrid
         products={filteredProducts}
