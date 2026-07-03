@@ -1,5 +1,5 @@
 "use client"
-
+import { CollectionFilter } from "./filter"
 import { useMemo, useState } from "react"
 
 import type { Product } from "@/lib/types"
@@ -15,7 +15,7 @@ export function CollectionClient({
   products,
 }: CollectionClientProps) {
   const [search, setSearch] = useState("")
-
+const [category, setCategory] = useState("all")
   const filteredProducts = useMemo(() => {
     const term = search.toLowerCase()
 
