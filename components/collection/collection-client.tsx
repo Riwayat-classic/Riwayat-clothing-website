@@ -1,5 +1,6 @@
 "use client"
 import { CollectionFilter } from "./filter"
+
 import { useMemo, useState } from "react"
 
 import type { Product } from "@/lib/types"
@@ -19,13 +20,18 @@ const [category, setCategory] = useState("all")
   const filteredProducts = useMemo(() => {
     const term = search.toLowerCase()
 
-    return products.filter((product) => {
-      return (
-        product.name.toLowerCase().includes(term) ||
-        product.description.toLowerCase().includes(term)
-      )
-    })
-  }, [products, search])
+   return products.filter((product) => {
+  const matchesSearch =
+    product.name.toLowerCase().includes(term) ||
+    product.description.toLowerCase().includes(term)
+
+  const matchesCategory =
+    category === "all" ||
+    product.category === category
+
+  return matchesSearch && matchesCategory
+})
+  }, [products, search, category])
 
   return (
     <>
