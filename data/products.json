@@ -1,6 +1,6 @@
 [
   {
-    "id": "prod_001",
+    "id": "black-embroidered-sherwani",
     "name": "Black Embroidered Sherwani",
     "category": "sherwani",
     "description": "Premium black sherwani with intricate gold thread embroidery, fully lined with a structured collar.",
@@ -12,7 +12,7 @@
     "whatsappText": "I'm interested in the Black Embroidered Sherwani"
   },
   {
-    "id": "prod_002",
+    "id": "ivory-gold-wedding-sherwani",
     "name": "Ivory Gold Wedding Sherwani",
     "category": "sherwani",
     "description": "Regal ivory sherwani with hand-worked gold detailing, perfect for the wedding day.",
@@ -24,7 +24,7 @@
     "whatsappText": "I'm interested in the Ivory Gold Wedding Sherwani"
   },
   {
-    "id": "prod_003",
+    "id": "midnight-navy-three-piece-suit",
     "name": "Midnight Navy Three-Piece Suit",
     "category": "suits",
     "description": "Tailored navy three-piece suit in premium wool blend with a sharp peak lapel.",
@@ -36,7 +36,7 @@
     "whatsappText": "I'm interested in the Midnight Navy Three-Piece Suit"
   },
   {
-    "id": "prod_004",
+    "id": "charcoal-slim-fit-tuxedo",
     "name": "Charcoal Slim-Fit Tuxedo",
     "category": "suits",
     "description": "Modern charcoal tuxedo with satin lapels, cut for a clean slim silhouette.",
@@ -48,7 +48,7 @@
     "whatsappText": "I'm interested in the Charcoal Slim-Fit Tuxedo"
   },
   {
-    "id": "prod_005",
+    "id": "maroon-velvet-waistcoat",
     "name": "Maroon Velvet Waistcoat",
     "category": "waistcoats",
     "description": "Rich maroon velvet waistcoat with antique gold buttons, ideal for partywear.",
@@ -60,7 +60,7 @@
     "whatsappText": "I'm interested in the Maroon Velvet Waistcoat"
   },
   {
-    "id": "prod_006",
+    "id": "gold-brocade-waistcoat",
     "name": "Gold Brocade Waistcoat",
     "category": "waistcoats",
     "description": "Statement gold brocade waistcoat to elevate any sherwani or suit.",
@@ -72,7 +72,7 @@
     "whatsappText": "I'm interested in the Gold Brocade Waistcoat"
   },
   {
-    "id": "prod_007",
+    "id": "embellished-khussa-stole-set",
     "name": "Embellished Khussa & Stole Set",
     "category": "accessories",
     "description": "Handcrafted khussa shoes paired with an embroidered stole to complete the groom look.",
@@ -84,7 +84,7 @@
     "whatsappText": "I'm interested in the Embellished Khussa & Stole Set"
   },
   {
-    "id": "prod_008",
+    "id": "classic-white-kurta",
     "name": "Classic White Kurta (Ready to Wear)",
     "category": "ready-to-wear",
     "description": "Crisp ready-to-wear white kurta in premium cotton, available off the rack.",
@@ -96,7 +96,7 @@
     "whatsappText": "I'm interested in the Classic White Kurta"
   },
   {
-    "id": "prod_009",
+    "id": "royal-blue-prince-coat",
     "name": "Royal Blue Prince Coat",
     "category": "sherwani",
     "description": "Sophisticated royal blue prince coat with subtle tonal embroidery.",
