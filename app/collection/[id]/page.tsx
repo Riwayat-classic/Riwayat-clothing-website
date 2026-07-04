@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import Image from "next/image"
+import { ProductDetailClient } from "@/components/product/product-detail-client"
 
 import { getProducts } from "@/lib/data"
 
@@ -46,58 +47,8 @@ export default async function ProductPage({
     notFound()
   }
 
-  return (
+ return (
   <main className="mx-auto max-w-7xl px-4 py-16 md:px-8">
-
-    <div className="grid gap-12 lg:grid-cols-2">
-
-      {/* LEFT SIDE */}
-
-      <div>
-
-        <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-card">
-
-          <Image
-            src={`/images/${product.images[0]}`}
-            alt={product.name}
-            fill
-            priority
-            className="object-cover"
-          />
-
-        </div>
-
-      </div>
-
-      {/* RIGHT SIDE */}
-
-      <div>
-
-        <h1 className="font-heading text-5xl font-bold">
-          {product.name}
-        </h1>
-
-        <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-          {product.description}
-        </p>
-
-        <div className="mt-8">
-
-          <p className="text-3xl font-bold text-maroon">
-
-            {product.price > 0
-              ? `PKR ${product.price.toLocaleString()}`
-              : "Price on Request"}
-
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
+    <ProductDetailClient product={product} />
   </main>
 )
-  
-}
