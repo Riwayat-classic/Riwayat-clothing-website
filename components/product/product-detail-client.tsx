@@ -51,15 +51,15 @@ export function ProductDetailClient({
 
       <div>
 
-        <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-border">
+        <div className="group relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-card">
 
-          <Image
-            src={`/images/${selectedImage}`}
-            alt={product.name}
-            fill
-            priority
-            className="object-cover"
-          />
+         <Image
+  src={`/images/${selectedImage}`}
+  alt={product.name}
+  fill
+  priority
+  className="object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
+/>
 
         </div>
 
@@ -72,7 +72,7 @@ export function ProductDetailClient({
               <button
                 key={image}
                 onClick={() => setSelectedImage(image)}
-                className={`relative h-24 w-20 overflow-hidden rounded border transition-all ${
+                className={`group relative h-24 w-20 overflow-hidden rounded border transition-all duration-300 hover:scale-105 ${
                   selectedImage === image
                     ? "border-maroon"
                     : "border-border"
@@ -83,7 +83,7 @@ export function ProductDetailClient({
                   src={`/images/${image}`}
                   alt=""
                   fill
-                  className="object-cover"
+                  className="object-cover transition-transform duration-300 group-hover:scale-110"
                 />
 
               </button>
