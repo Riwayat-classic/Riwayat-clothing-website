@@ -64,6 +64,27 @@ const [currentIndex, setCurrentIndex] = useState(0)
           </div>
         ))}
       </div>
+      {lightboxOpen && (
+  <GalleryLightbox
+    items={filteredItems}
+    currentIndex={currentIndex}
+    onClose={() => setLightboxOpen(false)}
+    onPrev={() =>
+      setCurrentIndex((prev) =>
+        prev === 0
+          ? filteredItems.length - 1
+          : prev - 1
+      )
+    }
+    onNext={() =>
+      setCurrentIndex((prev) =>
+        prev === filteredItems.length - 1
+          ? 0
+          : prev + 1
+      )
+    }
+  />
+)}
     </>
   )
 }
