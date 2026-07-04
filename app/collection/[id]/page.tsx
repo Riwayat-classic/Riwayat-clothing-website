@@ -5,7 +5,7 @@ import Image from "next/image"
 import { RelatedProducts } from "@/components/product/related-products"
 import { ProductDetailClient } from "@/components/product/product-detail-client"
 
-
+import { ProductBreadcrumb } from "@/components/product/Breadcrumb"
 
 import { getProducts } from "@/lib/data"
 
@@ -53,6 +53,7 @@ export default async function ProductPage({
 
  return (
   <main className="mx-auto max-w-7xl px-4 py-16 md:px-8">
+    <ProductBreadcrumb productName={product.name} />
     <ProductDetailClient product={product} />
 
 <RelatedProducts
