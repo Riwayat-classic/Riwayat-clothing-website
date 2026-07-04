@@ -1,36 +1,34 @@
 import type { Metadata } from "next"
-import { getContent } from "@/lib/data"
-import { ServicesOverview } from "@/components/home/services-overview"
+
+import { ServicesHero } from "@/components/services/services-hero"
+import { ServicesGrid } from "@/components/services/services-grid"
+import { ProcessSection } from "@/components/services/process"
+import { WhyChooseSection } from "@/components/services/why-choose"
+import { ServicesFAQ } from "@/components/services/faq"
+import { ServicesCTA } from "@/components/services/cta"
 
 export const metadata: Metadata = {
   title: "Services | Riwayat",
   description:
-    "Discover Riwayat's bespoke tailoring, sherwanis, suits, partywear and groom styling services.",
+    "Discover Riwayat's bespoke tailoring, premium sherwanis, tailored suits, groom styling and luxury menswear services.",
 }
 
-export default async function ServicesPage() {
-  const content = await getContent()
-
+export default function ServicesPage() {
   return (
     <main className="bg-background pt-24">
-      <section className="bg-maroon-dark py-20 text-center">
-        <div className="mx-auto max-w-7xl px-4 md:px-8">
-          <p className="label-royal text-gold">
-            Our Expertise
-          </p>
 
-          <h1 className="mt-4 font-heading text-5xl font-bold text-cream">
-            Our Services
-          </h1>
+      <ServicesHero />
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg text-cream/80">
-            Every garment is handcrafted with precision, premium fabrics,
-            and decades of tailoring experience.
-          </p>
-        </div>
-      </section>
+      <ServicesGrid />
 
-      <ServicesOverview services={content.services} />
+      <ProcessSection />
+
+      <WhyChooseSection />
+
+      <ServicesFAQ />
+
+      <ServicesCTA />
+
     </main>
   )
 }
