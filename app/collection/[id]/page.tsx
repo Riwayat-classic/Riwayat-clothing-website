@@ -1,7 +1,11 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import Image from "next/image"
+
+import { RelatedProducts } from "@/components/product/related-products"
 import { ProductDetailClient } from "@/components/product/product-detail-client"
+
+
 
 import { getProducts } from "@/lib/data"
 
@@ -50,6 +54,11 @@ export default async function ProductPage({
  return (
   <main className="mx-auto max-w-7xl px-4 py-16 md:px-8">
     <ProductDetailClient product={product} />
+
+<RelatedProducts
+  currentProduct={product}
+  products={products}
+/>
   </main>
 )
 }
