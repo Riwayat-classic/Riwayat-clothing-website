@@ -63,7 +63,11 @@ export interface SiteContent {
   faq: { question: string; answer: string }[]
   process: { step: string; description: string }[]
   promos: { image: string; title: string; subtitle: string }[]
-  gallery: { image: string; caption: string }[]
+ gallery: {
+  image: string
+  caption: string
+  category: string
+}[]
   contact: {
     whatsapp: string
     email: string
