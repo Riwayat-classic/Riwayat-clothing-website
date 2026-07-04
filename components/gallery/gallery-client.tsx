@@ -1,5 +1,5 @@
 "use client"
-
+import { GalleryLightbox } from "./gallery-lightbox"
 import { useMemo, useState } from "react"
 import Image from "next/image"
 
@@ -19,6 +19,8 @@ export function GalleryClient({
   items,
 }: GalleryClientProps) {
   const [category, setCategory] = useState("All")
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+const [currentIndex, setCurrentIndex] = useState(0)
 
   const filteredItems = useMemo(() => {
     if (category === "All") return items
@@ -38,9 +40,13 @@ export function GalleryClient({
       <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {filteredItems.map((item) => (
           <div
-            key={item.image}
-            className="group overflow-hidden rounded-lg border border-border bg-card shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
-          >
+  key={item.image}
+  onClick={() => {
+    setCurrentIndex(filteredItems.indexOf(item))
+    setLightboxOpen(true)
+  }}
+  className="group cursor-pointer overflow-hidden rounded-lg border border-border bg-card shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+>
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
                 src={`/images/${item.image}`}
