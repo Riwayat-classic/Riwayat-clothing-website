@@ -72,9 +72,7 @@ export function GalleryLightbox({
           alt={item.caption}
           className="max-h-[90vh] max-w-full rounded object-contain"
         />
-<p className="mb-2 text-center text-sm text-white/70">
-  {currentIndex + 1} / {items.length}
-</p>
+
         <p className="mt-4 text-center text-lg text-white">
           {item.caption}
         </p>
