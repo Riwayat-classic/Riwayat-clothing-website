@@ -8,6 +8,7 @@ import type { Product } from "@/lib/types"
 import { CollectionSearch } from "./search"
 import { CollectionGrid } from "./grid"
 
+
 interface CollectionClientProps {
   products: Product[]
 }
