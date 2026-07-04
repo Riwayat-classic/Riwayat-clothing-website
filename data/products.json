@@ -9,7 +9,14 @@
     "featured": true,
     "stock": "made-to-order",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Black Embroidered Sherwani"
+"whatsappText": "I'm interested in the Black Embroidered Sherwani",
+
+"fabric": "Premium Jamawar",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "7–14 Working Days",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
   },
   {
     "id": "ivory-gold-wedding-sherwani",
@@ -21,7 +28,13 @@
     "featured": true,
     "stock": "made-to-order",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Ivory Gold Wedding Sherwani"
+    "whatsappText": "I'm interested in the Ivory Gold Wedding Sherwani",
+    "fabric": "Premium Jamawar",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "7–14 Working Days",
+"occasion": "Wedding",
+"care": "Dry Clean Only"
   },
   {
     "id": "midnight-navy-three-piece-suit",
@@ -33,7 +46,13 @@
     "featured": true,
     "stock": "available",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Midnight Navy Three-Piece Suit"
+    "whatsappText": "I'm interested in the Midnight Navy Three-Piece Suit",
+    "fabric": "Premium Wool Blend",
+"embroidery": "Minimal Detailing",
+"customization": "Available",
+"delivery": "5–10 Working Days",
+"occasion": "Formal Events",
+"care": "Dry Clean Only"
   },
   {
     "id": "charcoal-slim-fit-tuxedo",
@@ -45,7 +64,13 @@
     "featured": false,
     "stock": "available",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Charcoal Slim-Fit Tuxedo"
+    "whatsappText": "I'm interested in the Charcoal Slim-Fit Tuxedo",
+    "fabric": "Italian Suiting Fabric",
+"embroidery": "None",
+"customization": "Available",
+"delivery": "5–10 Working Days",
+"occasion": "Black Tie Events",
+"care": "Dry Clean Only"
   },
   {
     "id": "maroon-velvet-waistcoat",
@@ -57,7 +82,13 @@
     "featured": true,
     "stock": "available",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Maroon Velvet Waistcoat"
+    "whatsappText": "I'm interested in the Maroon Velvet Waistcoat",
+    "fabric": "Premium Velvet",
+"embroidery": "Fine Thread Work",
+"customization": "Available",
+"delivery": "5–7 Working Days",
+"occasion": "Wedding",
+"care": "Dry Clean Only"
   },
   {
     "id": "gold-brocade-waistcoat",
@@ -69,7 +100,13 @@
     "featured": false,
     "stock": "made-to-order",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Gold Brocade Waistcoat"
+    "whatsappText": "I'm interested in the Gold Brocade Waistcoat",
+    "fabric": "Luxury Brocade",
+"embroidery": "Traditional Pattern",
+"customization": "Available",
+"delivery": "5–7 Working Days",
+"occasion": "Wedding",
+"care": "Dry Clean Only"
   },
   {
     "id": "embellished-khussa-stole-set",
@@ -81,7 +118,14 @@
     "featured": false,
     "stock": "available",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Embellished Khussa & Stole Set"
+    "whatsappText": "I'm interested in the Embellished Khussa & Stole Set",
+    "fabric": "Premium Leather & Silk",
+"embroidery": "Hand Embellished",
+"customization": "Not Available",
+"delivery": "3–5 Working Days",
+"occasion": "Wedding",
+"care": "Keep Dry"
+
   },
   {
     "id": "classic-white-kurta",
@@ -93,7 +137,13 @@
     "featured": false,
     "stock": "available",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Classic White Kurta"
+    "whatsappText": "I'm interested in the Classic White Kurta",
+    "fabric": "Premium Cotton",
+"embroidery": "Minimal Embroidery",
+"customization": "Available",
+"delivery": "3–5 Working Days",
+"occasion": "Casual / Festive",
+"care": "Machine Wash Cold"
   },
   {
     "id": "royal-blue-prince-coat",
@@ -105,6 +155,12 @@
     "featured": true,
     "stock": "made-to-order",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Royal Blue Prince Coat"
+    "whatsappText": "I'm interested in the Royal Blue Prince Coat",
+    "fabric": "Premium Suiting",
+"embroidery": "Luxury Buttons",
+"customization": "Available",
+"delivery": "5–10 Working Days",
+"occasion": "Formal Events",
+"care": "Dry Clean Only"
   }
 ]
