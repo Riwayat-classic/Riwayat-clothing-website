@@ -121,15 +121,47 @@
     }
   ],
   "gallery": [
-    { "image": "gallery-1.png", "caption": "Embroidered Groom Sherwani" },
-    { "image": "gallery-2.png", "caption": "Classic Three-Piece Suit" },
-    { "image": "gallery-3.png", "caption": "Velvet Partywear" },
-    { "image": "gallery-4.png", "caption": "Prince Coat Detailing" },
-    { "image": "gallery-5.png", "caption": "Wedding Day Look" },
-    { "image": "gallery-6.png", "caption": "Gold Embroidery Close-up" },
-    { "image": "gallery-7.png", "caption": "Ready to Wear Kurta" },
-    { "image": "gallery-8.png", "caption": "Groom Accessories" }
-  ],
+  {
+    "image": "gallery-1.png",
+    "caption": "Embroidered Groom Sherwani",
+    "category": "Sherwani"
+  },
+  {
+    "image": "gallery-2.png",
+    "caption": "Classic Three-Piece Suit",
+    "category": "Suits"
+  },
+  {
+    "image": "gallery-3.png",
+    "caption": "Velvet Partywear",
+    "category": "Waistcoats"
+  },
+  {
+    "image": "gallery-4.png",
+    "caption": "Prince Coat Detailing",
+    "category": "Sherwani"
+  },
+  {
+    "image": "gallery-5.png",
+    "caption": "Wedding Day Look",
+    "category": "Sherwani"
+  },
+  {
+    "image": "gallery-6.png",
+    "caption": "Gold Embroidery Close-up",
+    "category": "Waistcoats"
+  },
+  {
+    "image": "gallery-7.png",
+    "caption": "Ready to Wear Kurta",
+    "category": "Suits"
+  },
+  {
+    "image": "gallery-8.png",
+    "caption": "Groom Accessories",
+    "category": "Accessories"
+  }
+],
   "contact": {
     "whatsapp": "920000000000",
     "email": "hello@riwayat.pk",
