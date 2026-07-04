@@ -1,5 +1,5 @@
 "use client"
-
+import { ImageMagnifier } from "./image-magnifier"
 import Image from "next/image"
 import { useState } from "react"
 import { MessageCircle, Calendar } from "lucide-react"
@@ -51,17 +51,10 @@ export function ProductDetailClient({
 
       <div>
 
-        <div className="group relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-card">
-
-         <Image
+        <ImageMagnifier
   src={`/images/${selectedImage}`}
   alt={product.name}
-  fill
-  priority
-  className="object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
 />
-
-        </div>
 
         {product.images.length > 1 && (
 
