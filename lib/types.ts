@@ -25,6 +25,12 @@ export interface Product {
   stock: StockStatus
   shopifyVariantId: string
   whatsappText: string
+  fabric: string
+embroidery: string
+customization: string
+delivery: string
+occasion: string
+care: string
 }
 
 export interface Testimonial {
