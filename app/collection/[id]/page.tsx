@@ -1,7 +1,10 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
+import Image from "next/image"
 
 import { getProducts } from "@/lib/data"
+
+
 
 interface PageProps {
   params: Promise<{
@@ -44,24 +47,57 @@ export default async function ProductPage({
   }
 
   return (
-    <main className="mx-auto max-w-7xl px-4 py-20 md:px-8">
+  <main className="mx-auto max-w-7xl px-4 py-16 md:px-8">
 
-      <h1 className="font-heading text-5xl font-bold">
-        {product.name}
-      </h1>
+    <div className="grid gap-12 lg:grid-cols-2">
 
-      <p className="mt-6 max-w-3xl text-lg text-muted-foreground">
-        {product.description}
-      </p>
+      {/* LEFT SIDE */}
 
-      <div className="mt-8">
-        <p className="text-2xl font-bold text-maroon">
-          {product.price > 0
-            ? `PKR ${product.price.toLocaleString()}`
-            : "Price on Request"}
-        </p>
+      <div>
+
+        <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-card">
+
+          <Image
+            src={`/images/${product.images[0]}`}
+            alt={product.name}
+            fill
+            priority
+            className="object-cover"
+          />
+
+        </div>
+
       </div>
 
-    </main>
-  )
+      {/* RIGHT SIDE */}
+
+      <div>
+
+        <h1 className="font-heading text-5xl font-bold">
+          {product.name}
+        </h1>
+
+        <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+          {product.description}
+        </p>
+
+        <div className="mt-8">
+
+          <p className="text-3xl font-bold text-maroon">
+
+            {product.price > 0
+              ? `PKR ${product.price.toLocaleString()}`
+              : "Price on Request"}
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+)
+  
 }
