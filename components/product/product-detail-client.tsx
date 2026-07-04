@@ -139,6 +139,71 @@ export function ProductDetailClient({
           </p>
 
         </div>
+        <section className="mt-10 rounded-sm border border-border bg-card p-6">
+
+  <h2 className="font-heading text-2xl font-semibold text-maroon">
+    Product Specifications
+  </h2>
+
+  <div className="mt-6 grid gap-4 sm:grid-cols-2">
+
+    <div>
+      <p className="text-xs uppercase tracking-wider text-muted-foreground">
+        Fabric
+      </p>
+      <p className="mt-1 font-medium">
+        {product.fabric}
+      </p>
+    </div>
+
+    <div>
+      <p className="text-xs uppercase tracking-wider text-muted-foreground">
+        Embroidery
+      </p>
+      <p className="mt-1 font-medium">
+        {product.embroidery}
+      </p>
+    </div>
+
+    <div>
+      <p className="text-xs uppercase tracking-wider text-muted-foreground">
+        Customization
+      </p>
+      <p className="mt-1 font-medium">
+        {product.customization}
+      </p>
+    </div>
+
+    <div>
+      <p className="text-xs uppercase tracking-wider text-muted-foreground">
+        Delivery
+      </p>
+      <p className="mt-1 font-medium">
+        {product.delivery}
+      </p>
+    </div>
+
+    <div>
+      <p className="text-xs uppercase tracking-wider text-muted-foreground">
+        Occasion
+      </p>
+      <p className="mt-1 font-medium">
+        {product.occasion}
+      </p>
+    </div>
+
+    <div>
+      <p className="text-xs uppercase tracking-wider text-muted-foreground">
+        Care
+      </p>
+      <p className="mt-1 font-medium">
+        {product.care}
+      </p>
+    </div>
+
+  </div>
+
+</section>
 
         <div className="mt-10 flex flex-col gap-4">
 
