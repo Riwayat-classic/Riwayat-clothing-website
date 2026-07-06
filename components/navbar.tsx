@@ -76,7 +76,7 @@ export function Navbar() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                 className={`label-royal text-sm font-semibold tracking-wide transition-all duration-300 ${
+                className={`label-royal text-sm font-semibold tracking-[0.18em] transition-all duration-300 ${
   active
     ? "text-[#8B5A2B]"
     : "text-[#3E2A1F] hover:text-[#B8860B]"
