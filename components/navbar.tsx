@@ -76,9 +76,11 @@ export function Navbar() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className={`label-royal text-xs transition-colors hover:text-gold ${
-                    active ? "text-gold" : "text-cream/90"
-                  }`}
+                 className={`label-royal text-sm font-semibold tracking-wide transition-all duration-300 ${
+  active
+    ? "text-[#8B5A2B]"
+    : "text-[#3E2A1F] hover:text-[#B8860B]"
+}`}
                 >
                   {link.label}
                 </Link>
@@ -92,7 +94,7 @@ export function Navbar() {
           href={waLink(WHATSAPP, "Hello Riwayat, I'd like to book an appointment.")}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden items-center gap-2 rounded-sm border border-gold bg-gold px-4 py-2 text-sm font-semibold text-maroon-dark transition-colors hover:bg-gold-light lg:inline-flex"
+          className="hidden items-center gap-2 rounded-lg bg-[#8B5A2B] px-5 py-2.5 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#6F4518] hover:shadow-lg lg:inline-flex"
         >
           <MessageCircle className="h-4 w-4" />
           Book Appointment
@@ -102,7 +104,7 @@ export function Navbar() {
         <button
           type="button"
           onClick={() => setOpen(true)}
-          className="text-cream lg:hidden"
+          className="text-[#5B3920] lg:hidden"
           aria-label="Open menu"
         >
           <Menu className="h-7 w-7" />
