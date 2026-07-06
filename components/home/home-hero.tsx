@@ -21,13 +21,13 @@ export function HomeHero({ content }: { content: SiteContent }) {
         fill
         priority
         sizes="100vw"
-        className="object-cover object-center"
+        className="object-cover object-[70%_center] lg:object-right"
       />
       {/* Maroon gradient overlay (stronger on the left) */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#4A0808]/80 via-[#4A0808]/55 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#4A0808]/70 via-[#4A0808]/40 to-transparent" />
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-20 md:px-10 lg:px-12">
-        <div className="max-w-2xl">
+        <div className="max-w-3xl">
           <p className="label-royal animate-fade-up text-sm text-gold md:text-base">
             {hero.preTitle}
           </p>
