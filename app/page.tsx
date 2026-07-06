@@ -12,6 +12,7 @@ import { PromoBanners } from "@/components/home/promo-banners"
 import { VideoSection } from "@/components/home/video-section"
 import { Testimonials } from "@/components/home/testimonials"
 import { CtaStrip } from "@/components/home/cta-strip"
+import HomePageClient from "@/components/home/home-page-client"
 
 export default async function Page() {
   const content = await getContent()
@@ -19,7 +20,7 @@ export default async function Page() {
   const testimonials = await getTestimonials()
 
   return (
-    <>
+    <HomePageClient>
       <HomeHero content={content} />
 
       <FeatureBar features={content.features} />
@@ -35,6 +36,8 @@ export default async function Page() {
       <Testimonials testimonials={testimonials} />
 
       <CtaStrip />
-    </>
+      
+      </HomePageClient>
+    
   )
 }
