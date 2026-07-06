@@ -19,18 +19,22 @@ export async function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:grid-cols-2 md:px-8 lg:grid-cols-4">
         {/* Brand + social */}
         <div>
-          <div className="mb-4 flex items-center gap-3">
-            <Image
-              src="/images/logo-transparent.png"
-              alt="Riwayat logo"
-              width={44}
-              height={44}
-              className="h-11 w-11 object-contain"
-            />
-            <span className="font-heading text-2xl font-bold text-cream">Riwayat</span>
+          <div className="mb-5">
+           <Link href="/" aria-label="Riwayat Home">
+  <Image
+    src="/images/riwayat-logo.png"
+    alt="Riwayat Classic Groom & Partywear"
+    width={220}
+    height={90}
+    priority
+    className="h-14 w-auto object-contain"
+  />
+</Link>
           </div>
           <p className="text-sm leading-relaxed text-cream/70">
-            Classic groom &amp; partywear crafted in Karachi. Where tradition meets elegance.
+            Classic Groom & Partywear crafted with
+premium fabrics, expert tailoring and
+timeless elegance for modern gentlemen.
           </p>
           <div className="mt-5 flex gap-3">
             <a
@@ -38,7 +42,7 @@ export async function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="rounded-full border border-gold/40 p-2 text-gold transition-colors hover:bg-gold hover:text-maroon-dark"
+             className="rounded-full border border-gold/40 p-2.5 text-gold transition-all duration-300 hover:-translate-y-1 hover:bg-gold hover:text-maroon-dark"
             >
               <Instagram className="h-4 w-4" />
             </a>
