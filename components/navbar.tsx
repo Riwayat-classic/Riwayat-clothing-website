@@ -57,7 +57,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3" aria-label="Riwayat home">
          <Image
-  src="/images/riwayat-logo.png"
+ src="/images/navbar-logo.png"
   alt="Riwayat Classic Groom & Partywear"
   width={220}
   height={90}
