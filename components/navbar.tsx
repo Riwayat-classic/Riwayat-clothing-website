@@ -49,10 +49,12 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-        solid ? "bg-maroon-dark/95 shadow-lg backdrop-blur" : "bg-transparent"
-      }`}
-    >
+  className={`fixed inset-x-0 top-0 z-50 border-b transition-all duration-300 ${
+    solid
+      ? "bg-[#F8F1E7]/95 border-[#D4AF37]/30 shadow-md backdrop-blur"
+      : "bg-[#F8F1E7]/90 border-transparent"
+  }`}
+>
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 md:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3" aria-label="Riwayat home">
