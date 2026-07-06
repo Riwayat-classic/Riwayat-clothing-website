@@ -53,19 +53,17 @@ export function Navbar() {
         solid ? "bg-maroon-dark/95 shadow-lg backdrop-blur" : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-8">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 md:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3" aria-label="Riwayat home">
-          <Image
-            src="/images/logo-transparent.png"
-            alt="Riwayat logo"
-            width={48}
-            height={48}
-            className="h-10 w-10 object-contain md:h-12 md:w-12"
-          />
-          <span className="font-heading text-xl font-bold tracking-wide text-cream md:text-2xl">
-            Riwayat
-          </span>
+         <Image
+  src="/images/riwayat-logo.png"
+  alt="Riwayat Classic Groom & Partywear"
+  width={220}
+  height={90}
+  priority
+  className="h-12 w-auto object-contain md:h-14 lg:h-16"
+/>
         </Link>
 
         {/* Desktop links */}
