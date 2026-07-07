@@ -29,7 +29,9 @@ const STOCK_STYLES: Record<string, string> = {
   "out-of-stock": "bg-destructive/10 text-destructive border-destructive/30",
 }
 
-const WHATSAPP = "920000000000"
+const WHATSAPP = "923222951804"
+
+ 
 
 export function ProductCard({
   product,
