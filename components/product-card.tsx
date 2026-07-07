@@ -43,18 +43,18 @@ export function ProductCard({
     "placeholder-product.png"
 
   return (
-    <article className="group overflow-hidden rounded-sm border border-border bg-card shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+    <article className="group flex h-full flex-col overflow-hidden rounded-sm border border-[#E8DCC2] bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-gold/50 hover:shadow-2xl">
 
       <Link href={`/collection/${product.id}`}>
 
-        <div className="relative h-80 overflow-hidden">
+        <div className="relative h-80 overflow-hidden bg-[#F8F1E7]">
 
           <Image
             src={`/images/${img}`}
             alt={product.name}
             fill
             sizes="(max-width:768px)100vw,33vw"
-            className="object-cover transition-transform duration-700 group-hover:scale-105"
+            className="object-cover transition-all duration-700 ease-out group-hover:scale-110"
           />
 
           <span className="absolute left-3 top-3 rounded-sm bg-maroon-dark/90 px-2.5 py-1 text-[10px] text-gold">
@@ -65,7 +65,7 @@ export function ProductCard({
 
       </Link>
 
-      <div className="flex flex-col p-5">
+      <div className="flex flex-1 flex-col p-5">
 
         <Link href={`/collection/${product.id}`}>
 
@@ -101,7 +101,7 @@ export function ProductCard({
 
         </div>
 
-        <div className="mt-5 flex flex-col gap-2">
+        <div className="mt-auto pt-6 flex flex-col gap-2">
 
           <a
             href={waLink(
@@ -110,7 +110,7 @@ export function ProductCard({
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold px-4 py-2.5 text-sm font-semibold text-maroon-dark transition-colors hover:bg-gold-light"
+            className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold px-4 py-2.5 text-sm font-semibold text-maroon-dark transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-light"
           >
             <MessageCircle className="h-4 w-4" />
             Order on WhatsApp

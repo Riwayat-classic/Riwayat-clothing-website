@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Git: Add Commit Push",
+      "type": "shell",
+      "command": "git",
+      "args": [
+        "add",
+        "."
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": [
+        "Git Commit",
+        "Git Push"
+      ],
+      "dependsOrder": "sequence"
+    },
+    {
+      "label": "Git Commit",
+      "type": "shell",
+      "command": "git",
+      "args": [
+        "commit",
+        "-m",
+        "Auto Backup"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Git Push",
+      "type": "shell",
+      "command": "git",
+      "args": [
+        "push",
+        "origin",
+        "main"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
