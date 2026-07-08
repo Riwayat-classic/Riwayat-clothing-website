@@ -29,7 +29,7 @@ export async function ContactInfo() {
     },
     {
       icon: MessageCircle,
-      title: "WhatsApp",
+      title: "WhatsApp us",
       value: contact.whatsapp,
     },
   ]
@@ -44,14 +44,13 @@ export async function ContactInfo() {
           </p>
 
           <h2 className="mt-4 font-heading text-4xl font-bold">
-            Reach Out Anytime
-          </h2>
-
+  Visit Riwayat Designers
+</h2>
           <p className="mx-auto mt-5 max-w-3xl text-lg text-muted-foreground">
-            We are always happy to answer your questions,
-            discuss your requirements and help you choose
-            the perfect outfit.
-          </p>
+  Visit our showroom on Tariq Road, Karachi, or contact us by phone,
+  WhatsApp or email. Our team is ready to help you find the perfect
+  groom and partywear for every occasion.
+</p>
         </div>
 
         <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
