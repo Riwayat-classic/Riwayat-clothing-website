@@ -22,6 +22,16 @@ export function ContactMap() {
   referrerPolicy="no-referrer-when-downgrade"
   title="Riwayat Designers Location"
 />
+<div className="flex justify-center py-6">
+  <a
+    href="https://www.google.com/maps/place/Riwayat+Designers/@24.8710677,67.0576106,17z/data=!3m1!4b1!4m6!3m5!1s0x3eb33f7e075bd5f5:0xecc6c7b89f4bdefa!8m2!3d24.8710629!4d67.0601802!16s%2Fg%2F11hm6vhxrl"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-md bg-gold px-6 py-3 font-semibold text-maroon-dark transition-colors hover:bg-gold-light"
+  >
+    Open in Google Maps
+  </a>
+</div>
 
         </div>
 

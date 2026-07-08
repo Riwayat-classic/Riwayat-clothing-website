@@ -8,7 +8,8 @@
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 import { ShoppingBag } from "lucide-react"
 
-export function ShopifyBuyButton({ shopifyVariantId }: { shopifyVariantId: string }) {
+export function ShopifyBuyButton
+({ shopifyVariantId }: { shopifyVariantId: string }) {
   const configured = Boolean(shopifyVariantId)
 
   function handleClick() {
