@@ -116,9 +116,9 @@ export function ProductCard({
             Order on WhatsApp
           </a>
 
-          <ShopifyBuyButton
+          {/*<ShopifyBuyButton
             shopifyVariantId={product.shopifyVariantId}
-          />
+          />*/}
 
         </div>
 
