@@ -6,7 +6,7 @@
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 // PLACEHOLDER_WHATSAPP_NUMBER — fallback used if content.json has no number
-export const PLACEHOLDER_WHATSAPP_NUMBER = "920000000000"
+export const PLACEHOLDER_WHATSAPP_NUMBER = "923222951804"
 
 export function waLink(phone: string, text: string): string {
   const number = (phone || PLACEHOLDER_WHATSAPP_NUMBER).replace(/[^0-9]/g, "")

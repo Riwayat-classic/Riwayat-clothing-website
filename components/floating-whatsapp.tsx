@@ -10,7 +10,7 @@ import { MessageCircle } from "lucide-react"
 import { waLink } from "@/lib/whatsapp"
 
 // Change this number to your WhatsApp business number
-const PHONE = "920000000000"
+const PHONE = "923222951804"
 
 export function FloatingWhatsApp() {
   return (

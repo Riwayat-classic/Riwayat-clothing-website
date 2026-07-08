@@ -23,7 +23,7 @@ const links = [
 ]
 
 // WhatsApp number for the navbar CTA (also editable in data/content.json)
-const WHATSAPP = "920000000000"
+const WHATSAPP = "923222951804"
 
 export function Navbar() {
   const pathname = usePathname()

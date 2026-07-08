@@ -3,7 +3,7 @@ import Link from "next/link"
 import { ArrowRight, ChevronRight, MessageCircle } from "lucide-react"
 import { waLink } from "@/lib/whatsapp"
 
-const WHATSAPP = "920000000000"
+const WHATSAPP = "923222951804"
 
 export function CollectionHero() {
   return (

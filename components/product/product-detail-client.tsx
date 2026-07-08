@@ -36,7 +36,7 @@ const STOCK_STYLES: Record<string, string> = {
     "bg-red-600/10 text-red-600 border-red-600/30",
 }
 
-const WHATSAPP = "920000000000"
+const WHATSAPP = "923222951804"
 
 export function ProductDetailClient({
   product,
