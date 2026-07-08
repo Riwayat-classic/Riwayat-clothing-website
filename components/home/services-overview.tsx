@@ -23,13 +23,13 @@ export function ServicesOverview({ services }: { services: Service[] }) {
           {services.map((service) => (
             <div
               key={service.title}
-              className="group rounded-lg border border-border bg-card p-8 transition-shadow hover:shadow-lg"
+              className="group rounded-xl border border-[#E8DCC2] bg-white p-8 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-gold/40 hover:shadow-2xl"
             >
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-secondary text-primary transition-colors group-hover:bg-primary group-hover:text-secondary">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-[#F8F1E7] text-[#8B5A2B] transition-all duration-500 group-hover:bg-[#8B5A2B] group-hover:text-white">
                 <ServiceIcon name={service.icon} className="h-6 w-6" />
               </div>
-              <h3 className="mt-6 text-xl text-card-foreground">{service.title}</h3>
-              <p className="mt-3 leading-relaxed text-muted-foreground">{service.description}</p>
+              <h3 className="mt-6 font-heading text-2xl font-semibold text-[#3E2A1F]">{service.title}</h3>
+              <p className="mt-3 leading-7 text-[#6B625C]">{service.description}</p>
             </div>
           ))}
         </div>
