@@ -20,16 +20,19 @@ export default async function CollectionPage() {
 
       <section
   id="products"
-  className="mx-auto max-w-7xl px-4 py-20 md:px-8"
+  className="mx-auto max-w-7xl px-4 py-24 md:px-8 lg:py-28"
 >
-        <h2 className="font-heading text-3xl font-bold">
-          Collection
-        </h2>
+        <h2 className="font-heading text-4xl font-bold tracking-tight text-[#3E2A1F] md:text-5xl">
+  Explore Our Collection
+</h2>
 
-        <p className="mt-2 text-muted-foreground">
-          Total Products: {products.length}
-        </p>
-       <div className="mt-12">
+        <p className="mt-4 text-lg text-[#6B625C]">
+  Discover our handcrafted collection of sherwanis, suits, waistcoats and accessories.
+  <span className="ml-2 font-semibold text-[#8B5A2B]">
+    ({products.length} Products)
+  </span>
+</p>
+       <div className="mt-14">
   <CollectionClient products={products} />
 </div>
       </section>
