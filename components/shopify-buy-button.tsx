@@ -17,7 +17,7 @@ export function ShopifyBuyButton({ shopifyVariantId }: { shopifyVariantId: strin
       alert("Online checkout coming soon. Please order via WhatsApp for now.")
       return
     }
-    // TODO: integrate Shopify Buy Button SDK with shopifyVariantId
+    // integrate Shopify Buy Button SDK with shopifyVariantId
   }
 
   return (
