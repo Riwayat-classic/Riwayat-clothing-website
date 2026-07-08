@@ -15,23 +15,24 @@ export async function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="bg-maroon-dark text-cream/80">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 md:grid-cols-2 md:px-8 lg:grid-cols-4">
+    <footer className="border-t border-[#E8DCC2] bg-[#F8F1E7] text-[#3E2A1F]">
+   <div className="mx-auto max-w-7xl px-4 py-6 md:px-8">
+  <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] lg:gap-16">
         {/* Brand + social */}
         <div>
-          <div className="mb-5">
+          <div className="mb-4">
            <Link href="/" aria-label="Riwayat Home">
   <Image
     src="/images/riwayat-logo.png"
     alt="Riwayat Classic Groom & Partywear"
-    width={220}
-    height={90}
+    width={320}
+    height={130}
     priority
-    className="h-14 w-auto object-contain"
+   className="h-32 w-auto object-contain md:h-36"
   />
 </Link>
           </div>
-          <p className="text-sm leading-relaxed text-cream/70">
+          <p className="mt-1 max-w-xs text-sm leading-6 text-[#6B625C]">
             Classic Groom & Partywear crafted with
 premium fabrics, expert tailoring and
 timeless elegance for modern gentlemen.
@@ -69,7 +70,7 @@ timeless elegance for modern gentlemen.
 
         {/* Quick links */}
         <div>
-          <h3 className="label-royal mb-4 text-sm text-gold">Quick Links</h3>
+          <h3 className="label-royal mb-4 text-sm font-semibold tracking-[0.25em] text-[#7A4E1D]">Quick Links</h3>
           <ul className="flex flex-col gap-3 text-sm">
             <li><Link href="/" className="hover:text-gold">Home</Link></li>
             <li><Link href="/collection" className="hover:text-gold">Collection</Link></li>
@@ -81,7 +82,7 @@ timeless elegance for modern gentlemen.
 
         {/* Services */}
         <div>
-          <h3 className="label-royal mb-4 text-sm text-gold">Services</h3>
+          <h3 className="label-royal mb-4 text-sm font-semibold tracking-[0.25em] text-[#7A4E1D]">Services</h3>
           <ul className="flex flex-col gap-3 text-sm">
             <li><Link href="/services" className="hover:text-gold">Bespoke Sherwani</Link></li>
             <li><Link href="/services" className="hover:text-gold">Tailored Suits</Link></li>
@@ -93,7 +94,7 @@ timeless elegance for modern gentlemen.
 
         {/* Contact */}
         <div>
-          <h3 className="label-royal mb-4 text-sm text-gold">Contact</h3>
+          <h3 className="label-royal mb-4 text-sm font-semibold tracking-[0.25em] text-[#7A4E1D]">Contact</h3>
           <ul className="flex flex-col gap-3 text-sm">
             <li className="flex items-start gap-2">
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
@@ -110,9 +111,10 @@ timeless elegance for modern gentlemen.
           </ul>
         </div>
       </div>
-
-      <div className="border-t border-gold/20">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-5 text-xs text-cream/60 md:flex-row md:px-8">
+      </div>
+<div className="mt-5 border-t border-[#E8DCC2]">
+      
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-3 text-xs text-[#6B625C] md:flex-row md:px-8">
           <p>&copy; {year} Riwayat. All rights reserved.</p>
           <Link href="/contact" className="hover:text-gold">Privacy Policy</Link>
         </div>
