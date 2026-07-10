@@ -34,7 +34,7 @@ const features = [
 
 export function Craftsmanship() {
   return (
-    <section className="bg-muted/30 py-20">
+    <section className="bg-muted/30 py-20 md:py-24">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
 
         <div className="text-center">
@@ -42,7 +42,7 @@ export function Craftsmanship() {
             Craftsmanship
           </p>
 
-          <h2 className="mt-4 font-heading text-4xl font-bold">
+          <h2 className="mt-4 font-heading text-3xl font-bold sm:text-4xl">
             Designed With Precision
           </h2>
 
@@ -52,7 +52,7 @@ export function Craftsmanship() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
 
           {features.map((feature) => {
             const Icon = feature.icon
@@ -60,7 +60,7 @@ export function Craftsmanship() {
             return (
               <div
                 key={feature.title}
-                className="rounded-lg border border-border bg-card p-8 text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="rounded-xl border border-border bg-card p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
                 <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-gold/15">
                   <Icon className="h-7 w-7 text-maroon" />
