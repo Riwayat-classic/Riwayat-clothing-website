@@ -34,7 +34,7 @@ const cinzel = Cinzel({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://riwayat.pk"),
+  metadataBase: new URL("https://riwayatdesigners.com"),
 
   title: {
     default: "Riwayat | Classic Groom & Partywear",
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     description:
       "Premium sherwanis, tailored suits and groom styling crafted in Karachi.",
 
-    url: "https://riwayat.pk",
+   url: "https://riwayatdesigners.com",
 
     siteName: "Riwayat",
 
