@@ -58,7 +58,7 @@ export function CollectionClient({
     <>
       <div className="mb-10 flex flex-col gap-6">
 
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
 
           <CollectionSearch
             value={search}
@@ -68,7 +68,7 @@ export function CollectionClient({
           <select
             value={sort}
             onChange={(e) => setSort(e.target.value)}
-            className="h-11 rounded-md border border-border bg-white px-4 text-sm"
+            className="h-11 w-full rounded-md border border-border bg-white px-4 text-sm md:w-64"
           >
             <option value="featured">Featured</option>
             <option value="price-low">Price: Low to High</option>
@@ -84,8 +84,16 @@ export function CollectionClient({
         />
 
         <p className="text-sm text-muted-foreground">
-          Showing {filteredProducts.length} of {products.length} products
-        </p>
+  Showing{" "}
+  <span className="font-semibold text-maroon">
+    {filteredProducts.length}
+  </span>{" "}
+  of{" "}
+  <span className="font-semibold">
+    {products.length}
+  </span>{" "}
+  premium products
+</p>
 
       </div>
 
