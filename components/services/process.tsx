@@ -4,7 +4,7 @@ export async function ProcessSection() {
   const content = await getContent()
 
   return (
-    <section className="bg-muted/30 py-24">
+   <section className="bg-muted/30 py-20 md:py-24">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
 
         <div className="text-center">
@@ -12,7 +12,7 @@ export async function ProcessSection() {
             Our Process
           </p>
 
-          <h2 className="mt-4 font-heading text-4xl font-bold">
+          <h2 className="mt-4 font-heading text-3xl font-bold sm:text-4xl">
             From Consultation To Perfection
           </h2>
 
@@ -22,7 +22,7 @@ export async function ProcessSection() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-5">
+        <div className="mt-16 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5">
 
           {content.process.map((step, index) => (
             <div
@@ -30,8 +30,7 @@ export async function ProcessSection() {
               className="text-center"
             >
 
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-maroon text-2xl font-bold text-white">
-
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-maroon text-2xl font-bold text-white shadow-lg transition-transform duration-300 hover:scale-110">
                 {index + 1}
 
               </div>
