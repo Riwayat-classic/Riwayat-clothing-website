@@ -1,13 +1,13 @@
 export function AboutHero() {
   return (
-    <section className="bg-maroon-dark py-24">
+    <section className="bg-maroon-dark py-20 md:py-24">
       <div className="mx-auto max-w-7xl px-4 text-center md:px-8">
 
         <p className="label-royal text-gold">
           Our Heritage
         </p>
-
-        <h1 className="mt-4 font-heading text-5xl font-bold text-cream">
+<h1 className="mt-4 font-heading text-4xl font-bold text-cream sm:text-5xl md:text-6xl">
+        
           Crafting Timeless Elegance
         </h1>
 
