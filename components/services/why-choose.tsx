@@ -30,7 +30,7 @@ const features = [
     icon: Clock,
     title: "On-Time Delivery",
     description:
-      "We respect your special occasions and deliver within the promised timeline.",
+      "Timely delivery across Pakistan and internationally for weddings and special occasions.",
   },
   {
     icon: Sparkles,
