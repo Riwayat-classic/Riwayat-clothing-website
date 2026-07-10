@@ -21,7 +21,7 @@ export async function ServicesGrid() {
   const content = await getContent()
 
   return (
-    <section className="py-24">
+    <section className="py-20 md:py-24">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
 
         <div className="text-center">
@@ -29,7 +29,7 @@ export async function ServicesGrid() {
             What We Offer
           </p>
 
-          <h2 className="mt-4 font-heading text-4xl font-bold">
+          <h2 className="mt-4 font-heading text-3xl font-bold sm:text-4xl">
             Premium Tailoring Services
           </h2>
 
@@ -39,7 +39,7 @@ export async function ServicesGrid() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+       <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
           {content.services.map((service) => {
             const Icon =
@@ -48,11 +48,10 @@ export async function ServicesGrid() {
             return (
               <div
                 key={service.title}
-                className="group rounded-lg border border-border bg-card p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+               className="group rounded-xl border border-border bg-card p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
 
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-maroon/10 text-maroon">
-
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-maroon/10 text-maroon transition-all duration-300 group-hover:scale-110">
                   {Icon && (
                     <Icon className="h-7 w-7" />
                   )}
