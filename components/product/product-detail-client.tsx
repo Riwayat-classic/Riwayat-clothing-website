@@ -58,28 +58,22 @@ export function ProductDetailClient({
 
         {product.images.length > 1 && (
 
-          <div className="mt-5 flex gap-4">
+          <div className="mt-5 flex flex-wrap gap-4">
 
             {product.images.map((image) => (
 
-              <button
-                key={image}
-                onClick={() => setSelectedImage(image)}
-                className={`group relative h-24 w-20 overflow-hidden rounded border transition-all duration-300 hover:scale-105 ${
-                  selectedImage === image
-                    ? "border-maroon"
-                    : "border-border"
-                }`}
-              >
-
-                <Image
-                  src={`/images/${image}`}
-                  alt=""
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-
-              </button>
+             <a
+  href={waLink(
+    WHATSAPP,
+    `Hello Riwayat, I would like to book an appointment for ${product.name}.`
+  )}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center gap-3 rounded-sm border border-maroon px-6 py-4 font-semibold text-maroon transition hover:bg-maroon hover:text-white"
+>
+  <Calendar className="h-5 w-5" />
+  Book Appointment
+</a>
 
             ))}
 
@@ -99,7 +93,7 @@ export function ProductDetailClient({
 
         </span>
 
-        <h1 className="mt-5 font-heading text-5xl font-bold">
+        <h1 className="mt-5 font-heading text-4xl font-bold sm:text-5xl">
 
           {product.name}
 
@@ -132,7 +126,7 @@ export function ProductDetailClient({
           </p>
 
         </div>
-        <section className="mt-10 rounded-sm border border-border bg-card p-6">
+        <section className="mt-10 rounded-xl border border-border bg-card p-6 shadow-sm">
 
   <h2 className="font-heading text-2xl font-semibold text-maroon">
     Product Specifications
