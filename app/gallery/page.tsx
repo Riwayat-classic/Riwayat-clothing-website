@@ -16,13 +16,13 @@ export default async function GalleryPage() {
   return (
     <main className="bg-background pt-24">
       {/* Hero */}
-      <section className="bg-maroon-dark py-20">
+      <section className="bg-maroon-dark py-20 md:py-24">
         <div className="mx-auto max-w-7xl px-4 text-center md:px-8">
           <p className="label-royal text-gold">
             Our Portfolio
           </p>
 
-          <h1 className="mt-4 font-heading text-5xl font-bold text-cream">
+          <h1 className="mt-4 font-heading text-4xl font-bold text-cream sm:text-5xl md:text-6xl">
             Gallery
           </h1>
 
@@ -34,7 +34,7 @@ export default async function GalleryPage() {
       </section>
 
       {/* Gallery Grid */}
-      <section className="py-20">
+      <section className="py-20 md:py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
 
           <SectionHeading
