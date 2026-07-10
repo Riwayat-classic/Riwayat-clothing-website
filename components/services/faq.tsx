@@ -4,7 +4,7 @@ export async function ServicesFAQ() {
   const content = await getContent()
 
   return (
-    <section className="bg-muted/30 py-24">
+    <section className="bg-muted/30 py-20 md:py-24">
       <div className="mx-auto max-w-4xl px-4 md:px-8">
 
         <div className="text-center">
@@ -12,7 +12,7 @@ export async function ServicesFAQ() {
             Frequently Asked Questions
           </p>
 
-          <h2 className="mt-4 font-heading text-4xl font-bold">
+          <h2 className="mt-4 font-heading text-3xl font-bold sm:text-4xl">
             Common Questions
           </h2>
 
@@ -26,13 +26,13 @@ export async function ServicesFAQ() {
           {content.faq.map((item) => (
             <div
               key={item.question}
-              className="rounded-lg border border-border bg-card p-6 shadow-sm"
+              className="rounded-xl border border-border bg-card p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
               <h3 className="font-heading text-xl font-semibold">
                 {item.question}
               </h3>
 
-              <p className="mt-3 leading-7 text-muted-foreground">
+              <p className="mt-4 leading-8 text-muted-foreground">
                 {item.answer}
               </p>
             </div>
