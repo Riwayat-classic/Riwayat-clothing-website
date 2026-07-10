@@ -48,7 +48,7 @@ const features = [
 
 export function WhyChooseSection() {
   return (
-    <section className="py-24">
+    <section className="py-20 md:py-24">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
 
         <div className="text-center">
@@ -56,7 +56,7 @@ export function WhyChooseSection() {
             Why Choose Riwayat
           </p>
 
-          <h2 className="mt-4 font-heading text-4xl font-bold">
+         <h2 className="mt-4 font-heading text-3xl font-bold sm:text-4xl">
             Crafted Around Your Personality
           </h2>
 
@@ -66,7 +66,7 @@ export function WhyChooseSection() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 
           {features.map((feature) => {
             const Icon = feature.icon
@@ -74,9 +74,9 @@ export function WhyChooseSection() {
             return (
               <div
                 key={feature.title}
-                className="rounded-lg border border-border bg-card p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+                className="group rounded-xl border border-border bg-card p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/15">
+               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/15 transition-transform duration-300 group-hover:scale-110">
                   <Icon className="h-7 w-7 text-maroon" />
                 </div>
 

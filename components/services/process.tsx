@@ -30,7 +30,7 @@ export async function ProcessSection() {
               className="text-center"
             >
 
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-maroon text-2xl font-bold text-white shadow-lg transition-transform duration-300 hover:scale-110">
+              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-maroon text-2xl font-bold text-white shadow-lg transition-transform duration-300 group-hover:scale-110">
                 {index + 1}
 
               </div>
