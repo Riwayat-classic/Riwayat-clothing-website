@@ -17,11 +17,23 @@
     "story": "Riwayat (روایت) began with a simple belief — that every groom deserves to wear his story. Rooted in the rich tapestry of subcontinental craftsmanship and refined by contemporary tailoring, we have dressed grooms and gentlemen across Karachi for their most important moments. From the first measurement to the final fitting, each garment is an heirloom in the making, blending heritage embroidery with the precision of modern cuts.",
     "mission": "To preserve the art of classic tailoring while dressing the modern man with timeless elegance.",
     "stats": [
-      { "label": "Years of Craft", "value": "15+" },
-      { "label": "Happy Clients", "value": "5000+" },
-      { "label": "Designs", "value": "800+" },
-      { "label": "Cities", "value": "12" }
-    ],
+  {
+    "label": "Years of Craft",
+    "value": "35+"
+  },
+  {
+    "label": "Happy Clients",
+    "value": "5000+"
+  },
+  {
+    "label": "Designs",
+    "value": "800+"
+  },
+  {
+    "label": "Countries Served",
+    "value": "4+"
+  }
+],
     "promise": [
       {
         "title": "Premium Fabrics",
