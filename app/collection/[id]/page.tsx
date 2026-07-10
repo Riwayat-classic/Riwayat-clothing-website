@@ -33,9 +33,14 @@ export async function generateMetadata({
   }
 
   return {
+  title: `${product.name} | Riwayat`,
+  description: product.description,
+  openGraph: {
     title: `${product.name} | Riwayat`,
     description: product.description,
-  }
+    images: [`/images/${product.images?.[0]}`],
+  },
+}
 }
 
 export default async function ProductPage({
@@ -52,14 +57,17 @@ export default async function ProductPage({
   }
 
  return (
-  <main className="mx-auto max-w-7xl px-4 py-16 md:px-8">
+ <main className="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:py-24">
+  
     <ProductBreadcrumb productName={product.name} />
     <ProductDetailClient product={product} />
 
-<RelatedProducts
-  currentProduct={product}
-  products={products}
-/>
+<div className="mt-24">
+  <RelatedProducts
+    currentProduct={product}
+    products={products}
+  />
+</div>
   </main>
 )
 }
