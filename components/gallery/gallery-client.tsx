@@ -37,7 +37,7 @@ const [currentIndex, setCurrentIndex] = useState(0)
         onChange={setCategory}
       />
 
-      <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {filteredItems.map((item) => (
           <div
   key={item.image}
@@ -52,11 +52,11 @@ const [currentIndex, setCurrentIndex] = useState(0)
                 src={`/images/${item.image}`}
                 alt={item.caption}
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
             </div>
 
-            <div className="p-4">
+            <div className="p-5">
               <p className="text-center text-sm font-medium">
                 {item.caption}
               </p>
