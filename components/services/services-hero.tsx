@@ -1,13 +1,13 @@
 export function ServicesHero() {
   return (
-    <section className="bg-maroon-dark py-24">
+    <section className="bg-maroon-dark py-20 md:py-24">
       <div className="mx-auto max-w-5xl px-4 text-center md:px-8">
 
         <p className="label-royal text-gold">
           Our Services
         </p>
 
-        <h1 className="mt-4 font-heading text-5xl font-bold text-cream">
+        <h1 className="mt-4 font-heading text-4xl font-bold text-cream sm:text-5xl md:text-6xl">
           Tailored Excellence For Every Occasion
         </h1>
 
