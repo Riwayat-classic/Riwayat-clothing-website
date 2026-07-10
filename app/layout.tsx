@@ -34,15 +34,76 @@ const cinzel = Cinzel({
 })
 
 export const metadata: Metadata = {
-  title: "Riwayat | Classic Groom & Partywear — Karachi",
+  metadataBase: new URL("https://riwayat.pk"),
+
+  title: {
+    default: "Riwayat | Classic Groom & Partywear",
+    template: "%s | Riwayat",
+  },
+
   description:
-    "Riwayat (روایت) — premium men's classic groom and partywear in Karachi. Bespoke sherwanis, suits, waistcoats and accessories where tradition meets elegance.",
-  generator: "v0.app",
-  keywords: ["Riwayat", "sherwani", "groom wear", "partywear", "Karachi", "menswear", "bespoke suits"],
+    "Riwayat (روایت) offers premium sherwanis, tailored suits, waistcoats and groom styling in Karachi. Serving clients across Pakistan, USA, Canada and the UK.",
+
+  keywords: [
+    "Riwayat",
+    "Sherwani",
+    "Prince Coat",
+    "Waistcoat",
+    "Menswear",
+    "Groom Wear",
+    "Partywear",
+    "Tailored Suits",
+    "Custom Tailoring",
+    "Karachi",
+    "Pakistan",
+    "Wedding Sherwani",
+    "Classic Groom & Partywear",
+  ],
+
+  authors: [
+    {
+      name: "Riwayat",
+    },
+  ],
+
+  creator: "Riwayat",
+
   openGraph: {
     title: "Riwayat | Classic Groom & Partywear",
-    description: "Where Tradition Meets Elegance — premium menswear in Karachi.",
+    description:
+      "Premium sherwanis, tailored suits and groom styling crafted in Karachi.",
+
+    url: "https://riwayat.pk",
+
+    siteName: "Riwayat",
+
+    locale: "en_PK",
+
     type: "website",
+
+    images: [
+      {
+        url: "/images/riwayat-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Riwayat Classic Groom & Partywear",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title: "Riwayat | Classic Groom & Partywear",
+
+    description:
+      "Premium sherwanis, tailored suits and groom styling crafted in Karachi.",
+
+    images: ["/images/riwayat-logo.png"],
+  },
+
+  icons: {
+    icon: "/favicon.ico",
   },
 }
 
