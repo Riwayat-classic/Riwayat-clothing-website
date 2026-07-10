@@ -4,15 +4,15 @@ export async function Story() {
   const content = await getContent()
 
   return (
-    <section className="py-20">
-      <div className="mx-auto grid max-w-7xl gap-12 px-4 md:grid-cols-2 md:px-8">
+   <section className="py-20 md:py-24">
+      <div className="mx-auto grid max-w-7xl gap-12 px-4 md:grid-cols-2 md:gap-16 md:px-8">
 
         <div>
           <p className="label-royal text-gold">
             Our Story
           </p>
 
-          <h2 className="mt-4 font-heading text-4xl font-bold">
+          <h2 className="mt-4 font-heading text-3xl font-bold sm:text-4xl">
             A Tradition of Craftsmanship
           </h2>
         </div>
