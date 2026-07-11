@@ -16,11 +16,13 @@ export function FeaturedProducts({ products }: { products: Product[] }) {
     <section className="bg-background py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <SectionHeading
-          label="The Signature Edit"
-          title="Featured Collection"
-          subtitle="A curated selection of our most loved sherwanis, suits and partywear."
+          label="Riwayat Signature"
+
+title="Crafted for Every Occasion"
+
+subtitle="Explore our finest sherwanis, prince coats, waistcoats and tailored ensembles designed for weddings, celebrations and timeless elegance."
         />
-        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {featured.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
@@ -28,7 +30,7 @@ export function FeaturedProducts({ products }: { products: Product[] }) {
         <div className="mt-12 text-center">
           <Link
             href="/collection"
-            className="inline-block rounded-sm bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-maroon-light"
+            className="inline-block rounded-sm border border-gold bg-maroon px-8 py-3 text-sm font-semibold text-cream transition-all duration-300 hover:bg-gold hover:text-maroon-dark"
           >
             View Full Collection
           </Link>
