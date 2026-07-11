@@ -43,11 +43,11 @@ export function ProductCard({
     "placeholder-product.png"
 
   return (
-    <article className="group flex h-full flex-col overflow-hidden rounded-sm border border-[#E8DCC2] bg-white shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-gold/50 hover:shadow-2xl">
+    <article className="group flex h-full flex-col overflow-hidden rounded-sm border border-[#E8DCC2] bg-white shadow-md transition-all duration-500 hover:-translate-y-2 hover:border-gold/60 hover:shadow-[0_20px_60px_rgba(0,0,0,0.18)]">
 
       <Link href={`/collection/${product.id}`}>
 
-        <div className="relative h-80 overflow-hidden bg-[#F8F1E7]">
+        <div className="relative h-[430px] overflow-hidden bg-[#F8F1E7]">
 
           <Image
             src={`/images/${img}`}
@@ -56,7 +56,7 @@ export function ProductCard({
             sizes="(max-width:768px)100vw,33vw"
             className="object-cover transition-all duration-700 ease-out group-hover:scale-110"
           />
-
+<div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
           <span className="absolute left-3 top-3 rounded-sm bg-maroon-dark/90 px-2.5 py-1 text-[10px] text-gold">
             {CATEGORY_LABELS[product.category]}
           </span>
@@ -69,8 +69,7 @@ export function ProductCard({
 
         <Link href={`/collection/${product.id}`}>
 
-          <h3 className="font-heading text-lg font-semibold transition-colors hover:text-maroon">
-
+         <h3 className="font-heading text-xl font-semibold transition-colors duration-300 group-hover:text-[#A67C52]">
             {product.name}
 
           </h3>
@@ -110,7 +109,7 @@ export function ProductCard({
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold px-4 py-2.5 text-sm font-semibold text-maroon-dark transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-light"
+            className="inline-flex items-center justify-center gap-2 rounded-sm border border-gold bg-gold px-4 py-2.5 text-sm font-semibold text-maroon-dark transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:bg-gold-light"
           >
             <MessageCircle className="h-4 w-4" />
             Order on WhatsApp
