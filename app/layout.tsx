@@ -82,13 +82,13 @@ export const metadata: Metadata = {
     type: "website",
 
     images: [
-      {
-        url: "/images/riwayat-logo.png",
-        width: 1200,
-        height: 630,
-        alt: "Riwayat Classic Groom & Partywear",
-      },
-    ],
+  {
+    url: "/images/riwayat-og-banner.png",
+    width: 1200,
+    height: 630,
+    alt: "Riwayat | Classic Groom & Partywear",
+  },
+],
   },
 
   twitter: {
@@ -99,7 +99,7 @@ export const metadata: Metadata = {
     description:
       "Premium sherwanis, tailored suits and groom styling crafted in Karachi.",
 
-    images: ["/images/riwayat-logo.png"],
+    images: ["/images/riwayat-og-banner.png"],
   },
 
   icons: {
