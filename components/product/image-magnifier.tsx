@@ -37,7 +37,7 @@ export function ImageMagnifier({
 
   return (
     <div
-      className="relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-card select-none touch-none"
+      className="relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-card select-none touch-none"onContextMenu={(e) => e.preventDefault()}
       onMouseMove={handleMove}
       onMouseEnter={() => setZoom(true)}
       onMouseLeave={() => setZoom(false)}
