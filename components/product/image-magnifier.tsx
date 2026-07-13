@@ -40,6 +40,42 @@ export function ImageMagnifier({
       onMouseMove={handleMove}
       onMouseEnter={() => setZoom(true)}
       onMouseLeave={() => setZoom(false)}
+      onTouchStart={(e) => {
+  setIsMobile(true)
+  setZoom(true)
+
+  const touch = e.touches[0]
+  const rect = e.currentTarget.getBoundingClientRect()
+
+  const x =
+    ((touch.clientX - rect.left) / rect.width) *
+    100
+
+  const y =
+    ((touch.clientY - rect.top) / rect.height) *
+    100
+
+  setPosition({ x, y })
+}}
+
+onTouchMove={(e) => {
+  const touch = e.touches[0]
+  const rect = e.currentTarget.getBoundingClientRect()
+
+  const x =
+    ((touch.clientX - rect.left) / rect.width) *
+    100
+
+  const y =
+    ((touch.clientY - rect.top) / rect.height) *
+    100
+
+  setPosition({ x, y })
+}}
+
+onTouchEnd={() => {
+  setZoom(false)
+}}
     >
       <Image
         src={src}
