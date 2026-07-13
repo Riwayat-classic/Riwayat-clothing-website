@@ -83,7 +83,7 @@ export function ProductDetailClient({
 
 ))}
 
-            
+            ))
 
           </div>
 
