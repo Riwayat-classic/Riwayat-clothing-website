@@ -17,7 +17,8 @@ export function ImageMagnifier({
     y: 50,
   })
 
-  const [zoom, setZoom] = useState(false)
+  
+  const [isMobile, setIsMobile] = useState(false)
 
   function handleMove(
     e: React.MouseEvent<HTMLDivElement>
