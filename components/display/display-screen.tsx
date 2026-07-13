@@ -12,7 +12,7 @@ export function DisplayScreen({
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % products.length)
-    }, 8000)
+    }, 10000)
 
     return () => clearInterval(interval)
   }, [products.length])
@@ -27,7 +27,7 @@ export function DisplayScreen({
         alt={product.name}
         fill
         priority
-        className="object-cover"
+        className="object-cover scale-105 transition-transform duration-[10000ms]"
       />
 
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
@@ -71,6 +71,37 @@ export function DisplayScreen({
 
             <div>Happy Clients</div>
           </div>
+
+        </div>
+
+      </div>
+            {/* Bottom strip for TV display */}
+
+      <div className="absolute bottom-0 left-0 w-full bg-black/70 py-6">
+
+        <div className="mx-auto flex max-w-7xl items-center justify-center gap-10 px-8 text-center text-2xl font-medium text-[#D4AF37]">
+
+          <span>Premium Sherwanis</span>
+
+          <span>•</span>
+
+          <span>Prince Coats</span>
+
+          <span>•</span>
+
+          <span>Suits</span>
+
+          <span>•</span>
+
+          <span>Waistcoats</span>
+
+          <span>•</span>
+
+          <span>Custom Tailoring</span>
+
+          <span>•</span>
+
+          <span>Karachi</span>
 
         </div>
 
