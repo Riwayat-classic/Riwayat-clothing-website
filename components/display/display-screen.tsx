@@ -75,37 +75,7 @@ export function DisplayScreen({
         </div>
 
       </div>
-            {/* Bottom strip for TV display */}
-
-      <div className="absolute bottom-0 left-0 w-full bg-black/70 py-6">
-
-        <div className="mx-auto flex max-w-7xl items-center justify-center gap-10 px-8 text-center text-2xl font-medium text-[#D4AF37]">
-
-          <span>Premium Sherwanis</span>
-
-          <span>•</span>
-
-          <span>Prince Coats</span>
-
-          <span>•</span>
-
-          <span>Suits</span>
-
-          <span>•</span>
-
-          <span>Waistcoats</span>
-
-          <span>•</span>
-
-          <span>Custom Tailoring</span>
-
-          <span>•</span>
-
-          <span>Karachi</span>
-
-        </div>
-
-      </div>
+           
     </main>
   )
 }
