@@ -37,7 +37,7 @@ export function ImageMagnifier({
 
   return (
     <div
-      className="relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-card"
+      className="relative aspect-[4/5] overflow-hidden rounded-sm border border-border bg-card select-none touch-none"
       onMouseMove={handleMove}
       onMouseEnter={() => setZoom(true)}
       onMouseLeave={() => setZoom(false)}
@@ -79,18 +79,22 @@ onTouchEnd={() => {
 }}
     >
       <Image
-        src={src}
-        alt={alt}
-        fill
-        priority
-        className="object-cover transition-transform duration-200"
-        style={{
-          transform: zoom
-            ? "scale(2)"
-            : "scale(1)",
-          transformOrigin: `${position.x}% ${position.y}%`,
-        }}
-      />
+  src={src}
+  alt={alt}
+  fill
+  priority
+  draggable={false}
+  className="object-cover transition-transform duration-200 select-none"
+  style={{
+    transform: zoom
+      ? "scale(2)"
+      : "scale(1)",
+    transformOrigin: `${position.x}% ${position.y}%`,
+    WebkitTouchCallout: "none",
+    WebkitUserSelect: "none",
+    userSelect: "none",
+  }}
+/>
     </div>
   )
 }
