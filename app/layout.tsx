@@ -8,10 +8,7 @@ import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next"
 import { Playfair_Display, Lato, Cinzel } from "next/font/google"
 import "./globals.css"
-import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
-import { FloatingWhatsApp } from "@/components/floating-whatsapp"
-import { ScrollToTop } from "@/components/scroll-to-top"
+import { LayoutWrapper } from "@/components/layout-wrapper"
 
 // Headings: elegant serif
 const playfair = Playfair_Display({
@@ -118,13 +115,10 @@ export default function RootLayout({
       className={`${playfair.variable} ${lato.variable} ${cinzel.variable} bg-background`}
     >
       <body className="font-body antialiased">
-        <Navbar />
-        <main className="min-h-screen">{children}</main>
-        <Footer />
-        <FloatingWhatsApp />
-        <ScrollToTop />
-        {process.env.NODE_ENV === "production" && <Analytics />}
-      </body>
+  <LayoutWrapper>{children}</LayoutWrapper>
+
+  {process.env.NODE_ENV === "production" && <Analytics />}
+</body>
     </html>
   )
 }
