@@ -15,6 +15,7 @@ export function LayoutWrapper({
 
   const isDisplayPage = pathname === "/display"
   alert(pathname)
+  
   console.log("Current pathname:", pathname)
 
   return (
