@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     {
       name: "Riwayat",
     },
-  ],
+  ],       
 
   creator: "Riwayat",
 
