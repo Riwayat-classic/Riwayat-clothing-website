@@ -56,15 +56,15 @@ export function DisplayScreen({
 
         <div className="absolute inset-0 bg-black/40" />
 
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            src="/images/navbar-logo.png"
-            alt="Riwayat"
-            width={420}
-            height={180}
-            className="animate-pulse"
-          />
-        </div>
+       <div className="absolute left-12 top-1/2 -translate-y-1/2">
+  <Image
+    src="/images/navbar-logo.png"
+    alt="Riwayat"
+    width={420}
+    height={180}
+    className="animate-pulse"
+  />
+</div>
       </main>
     )
   }
