@@ -9,13 +9,19 @@ export function DisplayScreen({
   const [current, setCurrent] = useState(-2)
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setCurrent((prev) => {
-        const totalSlides = products.length + 2
+   const timer = setTimeout(() => {
+  setCurrent((prev) => {
+    if (prev === -2) return -1
 
-        return (prev + 1) % totalSlides
-      })
-    }, current === -2 ? 5000 : current === -1 ? 8000 : 10000)
+    if (prev === -1) return 0
+
+    if (prev >= products.length - 1) {
+      return -2
+    }
+
+    return prev + 1
+  })
+}, current === -2 ? 5000 : current === -1 ? 8000 : 10000)
 
     return () => clearTimeout(timer)
   }, [current, products.length])
