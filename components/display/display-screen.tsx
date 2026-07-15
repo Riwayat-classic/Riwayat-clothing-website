@@ -5,19 +5,65 @@ import { useEffect, useState } from "react"
 
 export function DisplayScreen({
   products,
-  content,
 }: any) {
-  const [current, setCurrent] = useState(0)
+  const [current, setCurrent] = useState(-2)
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % products.length)
-    }, 10000)
+    const timer = setTimeout(() => {
+      setCurrent((prev) => {
+        const totalSlides = products.length + 2
 
-    return () => clearInterval(interval)
-  }, [products.length])
+        return (prev + 1) % totalSlides
+      })
+    }, current === -2 ? 5000 : current === -1 ? 8000 : 10000)
 
-  const product = products[current]
+    return () => clearTimeout(timer)
+  }, [current, products.length])
+
+  // Logo screen
+  if (current === -2) {
+    return (
+      <main className="flex h-screen items-center justify-center bg-black">
+        <Image
+          src="/images/navbar-logo.png"
+          alt="Riwayat"
+          width={500}
+          height={220}
+          priority
+          className="animate-pulse"
+        />
+      </main>
+    )
+  }
+
+  // Hero screen
+  if (current === -1) {
+    return (
+      <main className="relative h-screen overflow-hidden bg-black">
+        <Image
+          src="/images/hero-banner.png"
+          alt="Riwayat Hero"
+          fill
+          priority
+          className="object-cover"
+        />
+
+        <div className="absolute inset-0 bg-black/40" />
+
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image
+            src="/images/navbar-logo.png"
+            alt="Riwayat"
+            width={420}
+            height={180}
+            className="animate-pulse"
+          />
+        </div>
+      </main>
+    )
+  }
+
+  const product = products[current - 0]
 
   return (
     <main className="relative h-screen overflow-hidden bg-black">
@@ -54,7 +100,7 @@ export function DisplayScreen({
           {product.description}
         </p>
 
-        <div className="mt-10 flex gap-8 text-lg text-[#D4AF37]">
+        <div className="mt-10 flex gap-8 text-lg text-[#D4AF37]}">
 
           <div>
             <div className="text-4xl font-bold">
@@ -75,7 +121,7 @@ export function DisplayScreen({
         </div>
 
       </div>
-           
+
     </main>
   )
 }
