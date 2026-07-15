@@ -21,7 +21,7 @@ export default async function Page() {
 
   return (
     <HomePageClient>
-      <main className="pt-24"></main>
+      <main className="pt-28"></main>
       <HomeHero content={content} />
 
       <FeatureBar features={content.features} />
