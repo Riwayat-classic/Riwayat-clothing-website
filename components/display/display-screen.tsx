@@ -74,13 +74,14 @@ export function DisplayScreen({
   return (
     <main className="relative h-screen overflow-hidden bg-black">
 
-      <Image
-        src={`/images/${product.images[0]}`}
-        alt={product.name}
-        fill
-        priority
-        className="object-cover scale-105 transition-transform duration-[10000ms]"
-      />
+     <Image
+  key={product.images[0]}
+  src={`/images/${product.images[0]}`}
+  alt={product.name}
+  fill
+  priority
+  className="animate-displayZoom object-cover"
+/>
 
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
 
