@@ -7,7 +7,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Instagram, Facebook, Mail, MapPin, Phone } from "lucide-react"
-import { getContent } from "@/lib/data"
+//import { getContent } from "@/lib/data"
 
 export async function Footer() {
   const content = await getContent()
