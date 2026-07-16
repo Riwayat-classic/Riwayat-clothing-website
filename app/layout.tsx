@@ -9,6 +9,8 @@ import type { Metadata } from "next"
 import { Playfair_Display, Lato, Cinzel } from "next/font/google"
 import "./globals.css"
 import { LayoutWrapper } from "@/components/layout-wrapper"
+import { Footer } from "@/components/footer"
+import { FloatingWhatsApp } from "@/components/floating-whatsapp"
 
 // Headings: elegant serif
 const playfair = Playfair_Display({
@@ -114,8 +116,12 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${lato.variable} ${cinzel.variable} bg-background`}
     >
-      <body className="font-body antialiased">
+     <body className="font-body antialiased">
   <LayoutWrapper>{children}</LayoutWrapper>
+
+  <Footer />
+
+  <FloatingWhatsApp />
 
   {process.env.NODE_ENV === "production" && <Analytics />}
 </body>

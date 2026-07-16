@@ -2,8 +2,8 @@
 
 import { usePathname } from "next/navigation"
 import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
-import { FloatingWhatsApp } from "@/components/floating-whatsapp"
+//import { Footer } from "@/components/footer"
+//import { FloatingWhatsApp } from "@/components/floating-whatsapp"
 import { ScrollToTop } from "@/components/scroll-to-top"
 
 export function LayoutWrapper({
@@ -24,8 +24,8 @@ export function LayoutWrapper({
 
       <main className="min-h-screen">{children}</main>
 
-      {!isDisplayPage && <Footer />} 
-       {!isDisplayPage && <FloatingWhatsApp />} 
+      {//*{!isDisplayPage && <Footer />} 
+      {//* {!isDisplayPage && <FloatingWhatsApp />} 
 
       <ScrollToTop />
     </>
