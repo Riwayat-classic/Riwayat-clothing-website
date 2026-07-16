@@ -24,9 +24,9 @@ export function LayoutWrapper({
 
       <main className="min-h-screen">{children}</main>
 
-      {//*{!isDisplayPage && <Footer />} 
-      {//* {!isDisplayPage && <FloatingWhatsApp />} 
+      {/* {!isDisplayPage && <Footer />} */}
 
+{/* {!isDisplayPage && <FloatingWhatsApp />} */}
       <ScrollToTop />
     </>
   )
