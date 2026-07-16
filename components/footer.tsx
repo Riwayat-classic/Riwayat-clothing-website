@@ -10,8 +10,16 @@ import { Instagram, Facebook, Mail, MapPin, Phone } from "lucide-react"
 //import { getContent } from "@/lib/data"
 
 export async function Footer() {
-  const content = await getContent()
-  const c = content.contact
+  //const content = await getContent()
+ // const c = content.contact
+ const c = {
+  instagram: "#",
+  facebook: "#",
+  tiktok: "#",
+  address: "Karachi, Pakistan",
+  phone: "+92 322 2951804",
+  email: "sales@riwayatdesigners.com",
+}
   const year = new Date().getFullYear()
 
   return (
