@@ -1,8 +1,8 @@
 "use client"
-
+import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { MessageCircle } from "lucide-react"
+import { MessageCircle, ZoomIn } from "lucide-react"
 
 import type { Product } from "@/lib/types"
 import { waLink } from "@/lib/whatsapp"
@@ -43,6 +43,7 @@ export function ProductCard({
   const img =
     product.images?.[0] ??
     "placeholder-product.png"
+    const [isZoomOpen, setIsZoomOpen] = useState(false)
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-sm border border-[#E8DCC2] bg-white shadow-md transition-all duration-500 hover:-translate-y-2 hover:border-gold/60 hover:shadow-[0_20px_60px_rgba(0,0,0,0.18)]">
