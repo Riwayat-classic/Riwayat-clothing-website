@@ -6,6 +6,8 @@ import { MessageCircle } from "lucide-react"
 
 import type { Product } from "@/lib/types"
 import { waLink } from "@/lib/whatsapp"
+import Zoom from "react-medium-image-zoom"
+import "react-medium-image-zoom/dist/styles.css"
 
 import { ShopifyBuyButton } from "./shopify-buy-button"
 
