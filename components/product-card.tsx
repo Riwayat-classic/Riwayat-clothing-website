@@ -70,7 +70,7 @@ export function ProductCard({
     e.stopPropagation()
     setIsZoomOpen(true)
   }}
-  className="absolute bottom-3 right-3 rounded-full bg-black/70 p-2 text-white md:hidden"
+  className="absolute bottom-3 right-3 z-20 rounded-full bg-black/70 p-2 text-white"
 >
   <ZoomIn className="h-5 w-5" />
 </button>
