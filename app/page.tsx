@@ -28,7 +28,7 @@ export default async function Page() {
 
       <FeaturedProducts products={products} />
 
-      <ServicesOverview services={content.services} />
+      {/* <ServicesOverview services={content.services} /> */}
 
       <PromoBanners promos={content.promos} />
 
