@@ -36,7 +36,7 @@ export default async function Page() {
 
       <Testimonials testimonials={testimonials} />
 
-      <CtaStrip />
+      <CtaStrip whatsapp="923222951804" />
       
       </HomePageClient>
     
