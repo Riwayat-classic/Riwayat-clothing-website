@@ -63,6 +63,17 @@ export function ProductCard({
           <span className="absolute left-3 top-3 rounded-sm bg-maroon-dark/90 px-2.5 py-1 text-[10px] text-gold">
             {CATEGORY_LABELS[product.category]}
           </span>
+          <button
+  type="button"
+  onClick={(e) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setIsZoomOpen(true)
+  }}
+  className="absolute bottom-3 right-3 rounded-full bg-black/70 p-2 text-white md:hidden"
+>
+  <ZoomIn className="h-5 w-5" />
+</button>
 
         </div>
 
@@ -125,7 +136,28 @@ export function ProductCard({
         </div>
 
       </div>
+{isZoomOpen && (
+  <div
+    className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 md:hidden"
+    onClick={() => setIsZoomOpen(false)}
+  >
+    <Zoom>
+      <img
+        src={`/images/${img}`}
+        alt={product.name}
+        className="max-h-screen max-w-screen object-contain"
+      />
+    </Zoom>
 
+    <button
+      type="button"
+      onClick={() => setIsZoomOpen(false)}
+      className="absolute right-4 top-4 rounded-full bg-white/20 px-3 py-2 text-white"
+    >
+      ✕
+    </button>
+  </div>
+)}
     </article>
   )
 }
