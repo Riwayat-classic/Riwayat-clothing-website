@@ -80,7 +80,7 @@ export function DisplayScreen({
   alt={product.name}
   fill
   priority
-  className="animate-displayZoom object-cover scale-95"
+  className="animate-displayZoom object-contain"
 />
 
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
