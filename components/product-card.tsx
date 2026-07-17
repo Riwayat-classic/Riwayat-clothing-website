@@ -68,12 +68,11 @@ export function ProductCard({
   onClick={(e) => {
     e.preventDefault()
     e.stopPropagation()
-    alert("Zoom button is working")
     setIsZoomOpen(true)
   }}
-  className="absolute bottom-3 right-3 z-[9999] h-14 w-14 rounded-full border-4 border-red-500 bg-red-600 text-2xl font-bold text-white"
+  className="absolute bottom-3 right-3 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-black/75 text-white shadow-lg md:hidden"
 >
-  +
+  <ZoomIn className="h-5 w-5" />
 </button>
 
         </div>
@@ -139,7 +138,7 @@ export function ProductCard({
       </div>
 {isZoomOpen && (
   <div
-    className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 md:hidden"
+   className="fixed inset-0 z-[99999] flex items-center justify-center bg-black md:hidden"
     onClick={() => setIsZoomOpen(false)}
   >
     <Zoom>
