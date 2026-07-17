@@ -68,11 +68,12 @@ export function ProductCard({
   onClick={(e) => {
     e.preventDefault()
     e.stopPropagation()
+    alert("Zoom button is working")
     setIsZoomOpen(true)
   }}
-  className="absolute bottom-3 right-3 z-20 rounded-full bg-black/70 p-2 text-white"
+  className="absolute bottom-3 right-3 z-[9999] h-14 w-14 rounded-full border-4 border-red-500 bg-red-600 text-2xl font-bold text-white"
 >
-  <ZoomIn className="h-5 w-5" />
+  +
 </button>
 
         </div>
