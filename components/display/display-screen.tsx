@@ -117,7 +117,7 @@ export function DisplayScreen({
           </div>
 
           <div>
-            <div className="text-4xl font-bold">
+           className="text-4xl font-bold text-[#5A0A0A]"
               5000+
             </div>
 
