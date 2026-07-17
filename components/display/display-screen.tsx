@@ -82,8 +82,7 @@ export function DisplayScreen({
   className="animate-displayZoom object-contain"
 />
 
-     <div className="absolute inset-0 bg-gradient-to-r from-[#EDE3D1]/75 via-[#EDE3D1]/20 to-transparent" />
-
+    
       <div className="absolute left-12 top-1/2 max-w-xl -translate-y-1/2">
 
         <Image
