@@ -29,7 +29,7 @@ export function DisplayScreen({
   // Logo screen
   if (current === -2) {
     return (
-      <main className="flex h-screen items-center justify-center bg-black">
+    <main className="flex h-screen items-center justify-center bg-[#F8F1E7]">
         <Image
           src="/images/navbar-logo.png"
           alt="Riwayat"
@@ -45,7 +45,7 @@ export function DisplayScreen({
   // Hero screen
   if (current === -1) {
     return (
-      <main className="relative h-screen overflow-hidden bg-black">
+      <main className="relative h-screen overflow-hidden bg-[#F8F1E7]">
         <Image
           src="/images/hero-banner.png"
           alt="Riwayat Hero"
@@ -54,7 +54,7 @@ export function DisplayScreen({
           className="object-cover"
         />
 
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-[#3D0707]/25" />
 
        <div className="absolute left-12 top-1/2 -translate-y-1/2">
   <Image
@@ -72,8 +72,7 @@ export function DisplayScreen({
   const product = products[current - 0]
 
   return (
-    <main className="relative h-screen overflow-hidden bg-black">
-
+   <main className="relative h-screen overflow-hidden bg-[#F8F1E7]">
      <Image
   key={product.images[0]}
   src={`/images/${product.images[0]}`}
@@ -83,7 +82,7 @@ export function DisplayScreen({
   className="animate-displayZoom object-contain"
 />
 
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
+     <div className="absolute inset-0 bg-gradient-to-r from-[#EDE3D1]/75 via-[#EDE3D1]/20 to-transparent" />
 
       <div className="absolute left-12 top-1/2 max-w-xl -translate-y-1/2">
 
