@@ -70,9 +70,9 @@ export function ProductCard({
     e.stopPropagation()
     setIsZoomOpen(true)
   }}
-  className="absolute bottom-3 right-3 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-black/75 text-white shadow-lg md:hidden"
+  className="absolute bottom-4 right-4 z-20 flex h-11 w-11 items-center justify-center rounded-full border border-[#D4AF37]/60 bg-[#4A0D18]/90 text-[#D4AF37] shadow-[0_8px_25px_rgba(0,0,0,0.35)] backdrop-blur-sm transition-all duration-300 active:scale-95 md:hidden"
 >
-  <ZoomIn className="h-5 w-5" />
+  <ZoomIn className="h-5 w-5" strokeWidth={2.25} />
 </button>
 
         </div>
