@@ -12,27 +12,31 @@ export async function ContactInfo() {
   const contact = content.contact
 
   const cards = [
-    {
-      icon: MapPin,
-      title: "Visit Our Store",
-      value: contact.address,
-    },
-    {
-      icon: Phone,
-      title: "Call Us",
-      value: contact.phone,
-    },
-    {
-      icon: Mail,
-      title: "Email",
-      value: contact.email,
-    },
-    {
-      icon: MessageCircle,
-      title: "WhatsApp us",
-      value: contact.whatsapp,
-    },
-  ]
+  {
+    icon: MapPin,
+    title: "Visit Our Store",
+    value: contact.address,
+    link: "https://maps.google.com/?q=615/C+Kurta+Gali+Tariq+Road+PECHS+Block+2+Karachi+Pakistan",
+  },
+  {
+    icon: Phone,
+    title: "Call Us",
+    value: contact.phone,
+    link: `tel:${contact.phone}`,
+  },
+  {
+    icon: Mail,
+    title: "Email",
+    value: "sales@riwayatdesigners.com",
+    link: "mailto:sales@riwayatdesigners.com",
+  },
+  {
+    icon: MessageCircle,
+    title: "WhatsApp Us",
+    value: contact.whatsapp,
+    link: `https://wa.me/${contact.whatsapp}`,
+  },
+]
 
   return (
     <section className="py-24">
@@ -59,10 +63,13 @@ export async function ContactInfo() {
             const Icon = card.icon
 
             return (
-              <div
-                key={card.title}
-                className="rounded-lg border border-border bg-card p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
-              >
+             <a
+  key={card.title}
+  href={card.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-lg border border-border bg-card p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+>
                 <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-gold/15">
                   <Icon className="h-8 w-8 text-maroon" />
                 </div>
@@ -74,7 +81,7 @@ export async function ContactInfo() {
                 <p className="mt-4 break-words leading-7 text-muted-foreground">
                   {card.value}
                 </p>
-              </div>
+              </a>
             )
           })}
 
