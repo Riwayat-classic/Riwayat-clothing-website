@@ -5,7 +5,7 @@
     "category": "sherwani",
     "description": "Premium black sherwani with intricate gold thread embroidery, fully lined with a structured collar.",
     "price": 0,
-    "images": ["black-sherwani-full.png", "black-sherwani-neck.png"],
+    "images": ["black-sherwani-full.png", "black-sherwani-neck.png", "black-sherwani-cuff.png", "black-sherwani-turban.png"],
     "featured": true,
     "stock": "made-to-order",
     "shopifyVariantId": "",
