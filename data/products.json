@@ -151,7 +151,7 @@
     "category": "sherwani",
     "description": "Sophisticated royal blue prince coat.",
     "price": 0,
-    "images": ["blue-princecoat-full.png", "royal-blue-princecoat-half-2.png", "royal-blue-princecoat-half.png"],
+    "images": ["royal-blue-princecoat-full.png", "royal-blue-princecoat-half-2.png", "royal-blue-princecoat-half.png"],
     "featured": true,
     "stock": "made-to-order",
     "shopifyVariantId": "",
