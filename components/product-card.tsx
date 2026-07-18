@@ -137,11 +137,11 @@ export function ProductCard({
 
       </div>
 {isZoomOpen && (
-  <div
-  className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#F8F1E7] md:hidden"
+ <div
+  className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#F8F1E7]/95 backdrop-blur-sm md:hidden"
   onClick={() => setIsZoomOpen(false)}
 >
-  >
+  
     <Zoom>
       <img
         src={`/images/${img}`}
