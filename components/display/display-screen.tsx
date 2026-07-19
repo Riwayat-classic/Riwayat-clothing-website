@@ -79,6 +79,7 @@ export function DisplayScreen({
   alt={product.name}
   fill
   priority
+  unoptimized
   className="animate-displayZoom object-contain"
 />
 
