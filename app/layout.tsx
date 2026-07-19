@@ -121,7 +121,7 @@ export default function RootLayout({
 
   <Footer />
 
-  <FloatingWhatsApp />
+ {/* <FloatingWhatsApp /> */}
 
   {process.env.NODE_ENV === "production" && <Analytics />}
 </body>
