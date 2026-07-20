@@ -44,7 +44,7 @@ export function DisplayScreen({
           return prev + 1
         })
       }
-    }, 9000)
+    }, 7000)
 
     return () => clearTimeout(timer)
   }, [current, currentImage, products])
