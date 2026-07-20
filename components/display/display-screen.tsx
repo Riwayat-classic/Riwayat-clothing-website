@@ -81,7 +81,7 @@ const imageIndex = Math.floor(Date.now() / 3000) % displayImages.length
    <main className="relative h-screen overflow-hidden bg-[#F8F1E7]">
      <Image
   key={displayImages[imageIndex]}
-  src={displayImages[imageIndex]}
+  src={`/images/${displayImages[imageIndex]}`}
   alt={product.name}
   fill
   priority
