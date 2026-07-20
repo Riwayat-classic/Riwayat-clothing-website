@@ -70,11 +70,17 @@ export function DisplayScreen({
   }
 
   const product = products[current - 0]
+  const displayImages =
+  product.displayImages?.length > 0
+    ? product.displayImages
+    : product.images
+
+const imageIndex = Math.floor(Date.now() / 3000) % displayImages.length
 
   return (
    <main className="relative h-screen overflow-hidden bg-[#F8F1E7]">
      <Image
-  key={product.images[0]}
+  key={displayImages[imageIndex]}
   src={`/images/${product.images[0]}`}
   alt={product.name}
   fill
