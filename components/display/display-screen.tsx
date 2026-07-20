@@ -1,15 +1,17 @@
 "use client"
 
 import Image from "next/image"
-import { useEffect, useState, useRef } from "react"
-const [isPaused, setIsPaused] = useState(false)
+import { useEffect, useState, } from "react"
 
-const timerRef = useRef<NodeJS.Timeout | null>(null)
 export function DisplayScreen({
   products,
 }: any) {
   const [current, setCurrent] = useState(-2)
   const [currentImage, setCurrentImage] = useState(0)
+
+  const [isPaused, setIsPaused] = useState(false)
+
+
 
   useEffect(() => {
     if (isPaused) return
