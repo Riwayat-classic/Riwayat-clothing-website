@@ -1,8 +1,10 @@
 "use client"
 
 import Image from "next/image"
-import { useEffect, useState } from "react"
+import { useEffect, useState, useRef } from "react"
+const [isPaused, setIsPaused] = useState(false)
 
+const timerRef = useRef<NodeJS.Timeout | null>(null)
 export function DisplayScreen({
   products,
 }: any) {
@@ -10,6 +12,7 @@ export function DisplayScreen({
   const [currentImage, setCurrentImage] = useState(0)
 
   useEffect(() => {
+    if (isPaused) return
     if (current < 0) {
       const timer = setTimeout(() => {
         setCurrent((prev) => {
@@ -47,7 +50,44 @@ export function DisplayScreen({
     }, 7000)
 
     return () => clearTimeout(timer)
-  }, [current, currentImage, products])
+  }, [current, currentImage, products, isPaused])
+  useEffect(() => {
+  const handleKeyDown = (event: KeyboardEvent) => {
+    if (event.key === "Enter") {
+      setIsPaused((prev) => !prev)
+    }
+
+    if (event.key === "ArrowRight") {
+      setCurrentImage(0)
+
+      setCurrent((prev) => {
+        if (prev >= products.length - 1) {
+          return 0
+        }
+
+        return prev + 1
+      })
+    }
+
+    if (event.key === "ArrowLeft") {
+      setCurrentImage(0)
+
+      setCurrent((prev) => {
+        if (prev <= 0) {
+          return products.length - 1
+        }
+
+        return prev - 1
+      })
+    }
+  }
+
+  window.addEventListener("keydown", handleKeyDown)
+
+  return () => {
+    window.removeEventListener("keydown", handleKeyDown)
+  }
+}, [products.length])
 
   // Logo screen
   if (current === -2) {
