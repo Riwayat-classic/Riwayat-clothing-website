@@ -27,7 +27,7 @@ export function DisplayScreen({
     }
 
     const product = products[current]
-
+ 
     const displayImages =
       product.displayImages?.length > 0
         ? product.displayImages
