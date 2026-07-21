@@ -163,17 +163,14 @@
 "occasion": "Formal Events",
 "care": "Dry Clean Only"
   },
+  
   {
   "id": "stone-brown-prince-coat",
   "name": "Stone Brown Prince Coat",
   "category": "sherwani",
   "description": "Elegant stone brown prince coat with premium embroidery and intricate detailing.",
-
   "price": 0,
-
-  "images": [
-    "stone-brown-princecoat.png"
-  ],
+  "images": ["stone-brown-princecoat.png"],
 
   "displayImages": [
     "stone-brown-princecoat.png",
