@@ -3,19 +3,19 @@
 const categories = [
   "all",
   "sherwani",
+  "prince-coat",
   "suits",
   "waistcoats",
   "accessories",
-  "ready-to-wear",
 ]
 
 const labels: Record<string, string> = {
   all: "All",
   sherwani: "Sherwani",
+  "prince-coat": "Prince Coat",
   suits: "Suits",
   waistcoats: "Waistcoats",
   accessories: "Accessories",
-  "ready-to-wear": "Ready To Wear",
 }
 
 interface CollectionFilterProps {
