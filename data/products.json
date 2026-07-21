@@ -108,34 +108,16 @@
 "occasion": "Wedding",
 "care": "Dry Clean Only"
   },
-  {
-    "id": "embellished-khussa-stole-set",
-    "name": "Embellished Khussa & Stole Set",
-    "category": "accessories",
-    "description": "Handcrafted khussa shoes paired with an embroidered stole to complete the groom look.",
-    "price": 9000,
-    "images": ["accessories-set.png"],
-    "featured": false,
-    "stock": "available",
-    "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Embellished Khussa & Stole Set",
-    "fabric": "Premium Leather & Silk",
-"embroidery": "Hand Embellished",
-"customization": "Not Available",
-"delivery": "3–5 Working Days",
-"occasion": "Wedding",
-"care": "Keep Dry"
-
-  },
+ 
   {
     "id": "Imperial-Ivory-Prince-Coat",
     "name": "Imperial Ivory Prince Coat",
     "category": "prince-coat",
     "description": "Designed with exquisite gold motifs on a refined ivory base, the Imperial Ivory Prince Coat embodies luxury and heritage. Its graceful silhouette and meticulous detailing create a distinguished look, perfect for the modern gentleman seeking timeless sophistication on his special day.",
     "price": 0,
-    "images": ["imperial-ivory-princecoat.png","imperial-ivory-Princecoat2.png","imperial-ivory-Princecoat3.png","imperial-ivory-Princecoat4.png"],
+    "images": ["imperial-ivory-princecoat.png","imperial-ivory-princecoat2.png","imperial-ivory-princecoat3.png","imperial-ivory-princecoat4.png"],
 
-    "featured": false,
+    "featured": true,
     "stock": "available",
     "shopifyVariantId": "",
     "whatsappText": "I'm interested in the Imperial Ivory Prince Coat",
@@ -149,7 +131,7 @@
   {
     "id": "classic-white-kurta",
     "name": "Classic White Kurta (Ready to Wear)",
-    "category": "kurta pajama",
+    "category": "kurta-pajama",
     "description": "Crisp ready-to-wear white kurta in premium cotton, available off the rack.",
     "price": 6500,
     "images": ["white-kurta.png"],
@@ -167,7 +149,7 @@
   {
     "id": "royal-blue-prince-coat",
     "name": "Royal Blue Prince Coat",
-    "category": "sherwani",
+    "category": "prince-coat",
     "description": "Sophisticated royal blue prince coat.",
     "price": 0,
     "images": ["royal-blue-princecoat-full.png", "royal-blue-princecoat-half-2.png", "royal-blue-princecoat-half.png"],
@@ -186,7 +168,7 @@
   {
   "id": "stone-brown-prince-coat",
   "name": "Stone Brown Prince Coat",
-  "category": "sherwani",
+  "category": "prince-coat",
   "description": "Elegant stone brown prince coat with premium embroidery and intricate detailing.",
   "price": 0,
   "images": ["stone-brown-princecoat.png"],
