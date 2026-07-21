@@ -13,10 +13,10 @@ import { ShopifyBuyButton } from "./shopify-buy-button"
 
 const CATEGORY_LABELS: Record<string, string> = {
   sherwani: "Sherwani",
+  "prince-coat": "Prince Coat",
   suits: "Suits",
   waistcoats: "Waistcoats",
-  accessories: "Accessories",
-  "ready-to-wear": "Ready to Wear",
+  "kurta-pajama": "Kurta Pajama",
 }
 
 const STOCK_LABELS: Record<string, string> = {
