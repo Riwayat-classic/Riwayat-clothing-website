@@ -96,7 +96,7 @@
     "category": "waistcoats",
     "description": "Elevate your look with this imperial green waistcoat, perfect for any formal occasion.",
     "price": 14000,
-    "images": ["green-waistcoat.png","green-waistcoat2.png","green-waistcoat3.png","green-waistcoat4.png","green-waistcoat5.png", "green-waistcoat6.png"],
+    "images": ["green-waistcoat.png","green-waistcoat2.png","green-waistcoat3.png","green-waistcoat4.png","green-waistcoat5.png"],
     "featured": false,
     "stock": "made-to-order",
     "shopifyVariantId": "",
