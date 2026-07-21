@@ -128,9 +128,28 @@
 
   },
   {
+    "id": "Imperial-Ivory-Prince-Coat",
+    "name": "Imperial Ivory Prince Coat",
+    "category": "prince-coat",
+    "description": "Designed with exquisite gold motifs on a refined ivory base, the Imperial Ivory Prince Coat embodies luxury and heritage. Its graceful silhouette and meticulous detailing create a distinguished look, perfect for the modern gentleman seeking timeless sophistication on his special day.",
+    "price": 0,
+    "images": ["imperial-ivory-princecoat.png","Imperial Ivory Prince Coat2.png","Imperial Ivory Prince Coat3.png","Imperial Ivory Prince Coat4.png"],
+
+    "featured": false,
+    "stock": "available",
+    "shopifyVariantId": "",
+    "whatsappText": "I'm interested in the Imperial Ivory Prince Coat",
+    "fabric": "Premium Cotton",
+"embroidery": "Minimal Embroidery",
+"customization": "Available",
+"delivery": "3–5 Working Days",
+"occasion": "Casual / Festive",
+"care": "Machine Wash Cold"
+  },
+  {
     "id": "classic-white-kurta",
     "name": "Classic White Kurta (Ready to Wear)",
-    "category": "ready-to-wear",
+    "category": "kurta pajama",
     "description": "Crisp ready-to-wear white kurta in premium cotton, available off the rack.",
     "price": 6500,
     "images": ["white-kurta.png"],
