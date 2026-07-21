@@ -6,7 +6,7 @@ const categories = [
   "prince-coat",
   "suits",
   "waistcoats",
-  "accessories",
+  "kurta-pajama",
 ]
 
 const labels: Record<string, string> = {
@@ -15,7 +15,7 @@ const labels: Record<string, string> = {
   "prince-coat": "Prince Coat",
   suits: "Suits",
   waistcoats: "Waistcoats",
-  accessories: "Accessories",
+  "kurta-pajama": "Kurta Pajama",
 }
 
 interface CollectionFilterProps {
