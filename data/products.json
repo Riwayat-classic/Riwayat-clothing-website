@@ -91,21 +91,21 @@
 "care": "Dry Clean Only"
   },
   {
-    "id": "gold-brocade-waistcoat",
-    "name": "Gold Brocade Waistcoat",
+    "id": "Imperial-Green-Waistcoat-Suit",
+    "name": "Imperial Green Waistcoat",
     "category": "waistcoats",
-    "description": "Statement gold brocade waistcoat to elevate any sherwani or suit.",
+    "description": "Elevate your look with this imperial green waistcoat, perfect for any formal occasion.",
     "price": 14000,
-    "images": ["gold-waistcoat.png"],
+    "images": ["green-waistcoat.png","green-waistcoat2.png","green-waistcoat3.png","green-waistcoat4.png","green-waistcoat5.png", "green-waistcoat6.png"],
     "featured": false,
     "stock": "made-to-order",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Gold Brocade Waistcoat",
-    "fabric": "Luxury Brocade",
+    "whatsappText": "I'm interested in the Imperial Green Waistcoat",
+    "fabric": "Luxury jamawar fabric",
 "embroidery": "Traditional Pattern",
 "customization": "Available",
 "delivery": "5–7 Working Days",
-"occasion": "Wedding",
+"occasion": "Festive / Wedding",
 "care": "Dry Clean Only"
   },
  
