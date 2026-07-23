@@ -19,6 +19,25 @@
 "care": "Dry Clean Only"
   },
   {
+    "id": "royal-heritage-sherwani",
+    "name": "Royal Heritage Sherwani",
+    "category": "sherwani",
+    "description": "Celebrate your special day in the Royal Heritage Sherwani, exquisitely crafted with luxurious embroidery and a classic tailored fit. A perfect blend of heritage, elegance, and royal style.",
+    "price": 0,
+    "images": ["royal-heritage.webp", "royal-heritage2.webp", "royal-heritage3.webp", "royal-heritage4.webp"],
+    "featured": true,
+    "stock": "made-to-order",
+    "shopifyVariantId": "",
+"whatsappText": "I'm interested in the Royal Heritage Sherwani",
+
+"fabric": "Luxury jamawar fabric",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "7–14 Working Days",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
+  },
+  {
     "id": "antique-gold-wedding-sherwani",
     "name": "Antique Gold Wedding Sherwani",
     "category": "sherwani",
