@@ -43,7 +43,7 @@
     "category": "sherwani",
     "description": "Regal Antique Gold sherwani with hand-worked gold detailing, perfect for the wedding day.",
     "price": 0,
-    "images": ["antique-gold-full.png", "antique-gold-half.png", "antique-gold-neck.png", "antique-gold-sleeves.png", "antique-gold-turban.png"],
+    "images": ["antiq-gold-sherwani.webp","antique-gold-full.webp", "antique-gold-half.webp", "antique-gold-neck.webp", "antique-gold-sleeves.webp", "antique-gold-turban.webp"],
     "featured": true,
     "stock": "made-to-order",
     "shopifyVariantId": "",
