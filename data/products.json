@@ -166,21 +166,21 @@
 "care": "Machine Wash Cold"
   },
   {
-    "id": "royal-blue-prince-coat",
-    "name": "Royal Blue Prince Coat",
+    "id": "black-handwork-princecoat",
+    "name": "Black Handwork-PrinceCoat",
     "category": "prince-coat",
     "description": "Sophisticated royal blue prince coat.",
     "price": 0,
-    "images": ["royal-blue-princecoat-full.png", "royal-blue-princecoat-half-2.png", "royal-blue-princecoat-half.png"],
+    "images": ["black-handwork-princecoat.webp", "black-handwork-princecoat2.webp", "black-handwork-princecoat3.webp","black-handwork-princecoat.webp"],
     "featured": true,
     "stock": "made-to-order",
     "shopifyVariantId": "",
-    "whatsappText": "I'm interested in the Royal Blue Prince Coat",
+    "whatsappText": "I'm interested in the black handwork Prince Coat",
     "fabric": "Premium Suiting",
-"embroidery": "Luxury Buttons",
+"embroidery": "Luxury Embroidery",
 "customization": "Available",
 "delivery": "5–10 Working Days",
-"occasion": "Formal Events",
+"occasion": "Wedding / Reception",
 "care": "Dry Clean Only"
   },
   
