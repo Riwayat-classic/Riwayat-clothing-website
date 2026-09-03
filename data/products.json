@@ -18,6 +18,25 @@
 "occasion": "Wedding / Reception",
 "care": "Dry Clean Only"
   },
+   {
+    "id": "silver-gray-embroidered-sherwani",
+    "name": "Silver Gray Embroidered Sherwani",
+    "category": "sherwani",
+    "description": "A refined statement of timeless elegance, crafted in a sophisticated silver-grey tone with intricate all-over floral embroidery and subtle blue accents. Finished with a richly embellished band collar and tailored silhouette, it is an ideal choice for weddings, receptions, and formal celebrations.",
+    "price": 0,
+    "images": ["Silver Grey Embroidered Sherwani.webp", "Silver Grey Embroidered Sherwani2.webp", "Silver Grey Embroidered Sherwani3.webp", "Silver Grey Embroidered Sherwani4.webp", "Silver Grey Embroidered Sherwani5.webp"],
+    "featured": true,
+    "stock": "made-to-order",
+    "shopifyVariantId": "",
+"whatsappText": "I'm interested in the Silver Grey Embroidered Sherwani",
+
+"fabric": "Premium Raw silk",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "One Month Minimum",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
+  },
   {
     "id": "royal-heritage-sherwani",
     "name": "Royal Heritage Sherwani",
