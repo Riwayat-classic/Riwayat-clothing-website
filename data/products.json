@@ -19,6 +19,25 @@
 "care": "Dry Clean Only"
   },
    {
+    "id": "Ivory-Royal-Groom-Sherwani",
+    "name": "Ivory Royal Groom Sherwani",
+    "category": "sherwani",
+    "description": "A timeless ivory sherwani featuring a refined textured fabric, elegant gold detailing on the collar and cuffs, and a sophisticated pearl-style groom accessory. Perfect for creating a distinguished and regal look on your wedding day.",
+    "price": 0,
+    "images": ["Ivory Royal Groom Sherwani.webp", "Ivory Royal Groom Sherwani2.webp", "Ivory Royal Groom Sherwani3.webp", "Ivory Royal Groom Sherwani4.webp", "Ivory Royal Groom Sherwani5.webp","Ivory Royal Groom Sherwani6"],
+    "featured": true,
+    "stock": "made-to-order",
+    "shopifyVariantId": "",
+"whatsappText": "I'm interested in theIvory Royal Groom Sherwani",
+
+"fabric": "Premium Embroidery Fabric",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "15–20 Working Days",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
+  },
+   {
     "id": "silver-gray-embroidered-sherwani",
     "name": "Silver Gray Embroidered Sherwani",
     "category": "sherwani",
