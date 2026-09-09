@@ -37,6 +37,25 @@
 "occasion": "Wedding / Reception",
 "care": "Dry Clean Only"
   },
+  {
+    "id": "Ivory-Pearlcrest-Sherwani",
+    "name": "Ivory Pearlcrest Sherwani",
+    "category": "sherwani",
+    "description": "A distinguished ivory sherwani featuring an intricate tonal geometric weave, complemented by a refined row of pearl-inspired fabric buttons and elegant detailing at the collar. Its clean, regal silhouette brings together timeless tradition and contemporary sophistication—perfect for the modern groom on his special day.",
+    "price": 0,
+    "images": ["Ivory Pearlcrest Sherwani.webp", "Ivory Pearlcrest Sherwani2.webp", "Ivory Pearlcrest Sherwani3.webp", "Ivory Pearlcrest Sherwani4.webp", "Ivory Pearlcrest Sherwani5.webp","Ivory Pearlcrest Sherwani6.webp"],
+    "featured": true,
+    "stock": "made-to-order",
+    "shopifyVariantId": "",
+"whatsappText": "I'm interested in the Ivory Pearlcrest Sherwani",
+
+"fabric": "Premium Embroidery Fabric",
+"embroidery": "computer Embroidery",
+"customization": "Available",
+"delivery": "10–15 Working Days",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
+  },
    {
     "id": "silver-gray-embroidered-sherwani",
     "name": "Silver Gray Embroidered Sherwani",
