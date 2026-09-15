@@ -150,7 +150,7 @@ export function DisplayScreen({
         fill
         priority
         unoptimized
-        className="animate-displayZoom object-contain"
+        className="animate-displayZoom object-contain object-right"
       />
 
       <div className="absolute left-12 top-1/2 max-w-xl -translate-y-1/2">
