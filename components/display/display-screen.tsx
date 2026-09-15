@@ -166,11 +166,11 @@ export function DisplayScreen({
           Classic Groom & Partywear
         </p>
 
-        <h1 className="mt-8 font-heading text-4xl font-bold text-[#5A0A0A]">
+        <h1 className="mt-8 font-heading text-6xl font-bold text-[#5A0A0A]">
           {product.name}
         </h1>
 
-        <p className="mt-6 text-1xl text-[#6B4E3D]">
+        <p className="mt-6 text-2xl text-[#6B4E3D]">
           {product.description}
         </p>
 
