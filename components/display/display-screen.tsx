@@ -153,7 +153,7 @@ export function DisplayScreen({
         className="animate-displayZoom object-contain object-right"
       />
 
-      <div className="absolute left-12 top-1/2 max-w-xl -translate-y-1/2">
+      <div className="absolute left-12 top-[42%] max-w-xl -translate-y-1/2">
         <Image
           src="/images/navbar-logo.png"
           alt="Riwayat"
