@@ -162,15 +162,15 @@ export function DisplayScreen({
           className="h-auto w-60"
         />
 
-        <p className="mt-4 text-xl text-[#D4AF37]">
+        <p className="mt-2 text-xl text-[#D4AF37]">
           Classic Groom & Partywear
         </p>
 
-        <h1 className="mt-8 font-heading text-5xl font-bold text-[#5A0A0A]">
+        <h1 className="mt-4 font-heading text-5xl font-bold text-[#5A0A0A]">
           {product.name}
         </h1>
 
-        <p className="mt-6 text-1xl text-[#6B4E3D]">
+        <p className="mt-3 text-1xl text-[#6B4E3D]">
           {product.description}
         </p>
 
