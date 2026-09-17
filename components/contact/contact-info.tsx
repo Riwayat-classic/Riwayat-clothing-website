@@ -16,7 +16,7 @@ export async function ContactInfo() {
     icon: MapPin,
     title: "Visit Our Store",
     value: contact.address,
-    link: "link: "https://www.google.com/maps/place/?q=place_id:ChIJ9dVbB34_sz4R-t5Ln7jHxuw",
+    link: "link: "https://www.google.com/maps/place/Riwayat+Designers/@24.8661813,67.0583741,20z",
   },
   {
     icon: Phone,
