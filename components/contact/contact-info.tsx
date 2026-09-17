@@ -16,7 +16,7 @@ export async function ContactInfo() {
     icon: MapPin,
     title: "Visit Our Store",
     value: contact.address,
-    link: "https://maps.google.com/?q=615/C+Kurta+Gali+Tariq+Road+PECHS+Block+2+Karachi+Pakistan",
+    link: "link: "https://www.google.com/maps/place/?q=place_id:ChIJ9dVbB34_sz4R-t5Ln7jHxuw",
   },
   {
     icon: Phone,
