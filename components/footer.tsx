@@ -31,7 +31,7 @@ export async function Footer() {
           <div className="mb-4">
            <Link href="/" aria-label="Riwayat Home">
   <Image
-    src="/images/riwayat-logo.png"
+    src="/images/riwayat-logo.webp"
     alt="Riwayat Classic Groom & Partywear"
     width={320}
     height={130}
