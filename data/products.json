@@ -18,6 +18,25 @@
 "occasion": "Wedding / Reception",
 "care": "Dry Clean Only"
   },
+  {
+    "id": "black-velvet-sherwani",
+    "name": "Black Velvet Sherwani",
+    "category": "sherwani",
+    "description": "An exquisite black sherwani featuring full hand embroidery with premium embellishments,this statement piece embodies timeless elegance and refined luxury for weddings and special occasions.",
+    "price": 0,
+    "images": ["black velvetsherwani.webp", "black velvetsherwani2.webp", "black velvetsherwani3.webp", "black velvetsherwani4.webp", "black velvetsherwani5.webp"],
+    "featured": true,
+    "stock": "made-to-order",
+    "shopifyVariantId": "",
+"whatsappText": "I'm interested in the Black Embroidered Sherwani",
+
+"fabric": "Premium velvet fabric",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "15–20 Working Days",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
+  },
    {
     "id": "Ivory-Royal-Sherwani",
     "name": "Ivory Royal Sherwani",
