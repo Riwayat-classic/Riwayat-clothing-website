@@ -14,7 +14,26 @@
 "fabric": "Premium rivera silk",
 "embroidery": "Hand Embroidery",
 "customization": "Available",
-"delivery": "7–14 Working Days",
+"delivery": "20–25 Working Days",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
+  },
+   {
+    "id": "Midnight-Ivory-Sherwani",
+    "name": "Midnight Ivory Sherwani",
+    "category": "sherwani",
+    "description": "A striking black sherwani featuring intricate ivory embroidery across the collar, shoulder and cuffs, complemented by a delicately embellished ivory stole. Its sleek tailored silhouette and refined detailing create a sophisticated contrast, making it an elegant choice for weddings, receptions and formal evening occasions.",
+    "price": 0,
+    "images": ["Midnight Ivory Sherwani.webp", "Midnight Ivory Sherwani2.webp", "Midnight Ivory Sherwani3.webp", "Midnight Ivory Sherwani4.webp", "Midnight Ivory Sherwani5.webp"],
+    "featured": true,
+    "stock": "made-to-order",
+    "shopifyVariantId": "",
+"whatsappText": "I'm interested in the Black Embroidered Sherwani",
+
+"fabric": "Premium rivera silk",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "10–15 Working Days",
 "occasion": "Wedding / Reception",
 "care": "Dry Clean Only"
   },
