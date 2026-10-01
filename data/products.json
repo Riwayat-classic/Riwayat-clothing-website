@@ -18,6 +18,25 @@
 "occasion": "Wedding / Reception",
 "care": "Dry Clean Only"
   },
+  {
+    "id": "Black & Gold-Embroidered-Sherwani",
+    "name": "Black & Gold Embroidered Sherwani",
+    "category": "sherwani",
+    "description": "A distinguished black sherwani featuring intricate antique-gold embroidery throughout the front, collar, cuffs, and hem. The elaborate floral and ornamental detailing creates a rich, regal aesthetic, while the structured band collar and tailored silhouette add a refined contemporary finish. Designed for weddings, receptions, and grand formal occasions, this sherwani embodies timeless elegance and sophisticated Pakistani craftsmanship.",
+    "price": 0,
+    "images": ["Black & Gold Embroidered Sherwani.webp", "Black & Gold Embroidered Sherwani1.webp", "Black & Gold Embroidered Sherwani2.webp", "Black & Gold Embroidered Sherwani3.webp", "Black & Gold Embroidered Sherwani4.webp", "Black & Gold Embroidered Sherwani5.webp"],
+    "featured": true,
+    "stock": "made-to-order",
+    "shopifyVariantId": "",
+    "whatsappText": "I'm interested in the Black Embroidered Sherwani",
+
+"fabric": "Premium Raw silk",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "20–25 Working Days",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
+  },
    {
     "id": "Midnight-Ivory-Sherwani",
     "name": "Midnight Ivory Sherwani",
