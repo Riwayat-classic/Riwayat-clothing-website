@@ -20,6 +20,25 @@
   },
 
   {
+    "id": "Charcoal-Noir-Embroidered-Prince-Coat",
+    "name": "Charcoal Noir Embroidered Prince Coat",
+    "category": "prince-coat",
+    "description": "A sophisticated charcoal-black prince coat featuring elegant tone-on-tone floral embroidery across the upper chest and lower front panel. Designed with a refined embroidered band collar, classic front button closure, and a neatly styled pocket square, this piece combines understated luxury with modern tailoring. Its sleek silhouette and subtle detailing make it an excellent choice for weddings, formal receptions, and distinguished evening occasions.",
+    "price": 0,
+    "images": ["Charcoal Noir Embroidered Prince Coat.webp", "Charcoal Noir Embroidered Prince Coat1.webp", "Charcoal Noir Embroidered Prince Coat2.webp", "Charcoal Noir Embroidered Prince Coat3.webp", "Charcoal Noir Embroidered Prince Coat4.webp"],
+    "featured": true,
+    "stock": "made-to-order",
+    "shopifyVariantId": "",
+"whatsappText": "I'm interested in the Black Embroidered Sherwani",
+
+"fabric": "Premium rivera silk",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "20–25 Working Days",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
+  },
+  {
     "id": "Black-Gold-Embroidered-Sherwani",
     "name": "Black and Gold Embroidered Sherwani",
     "category": "sherwani",
