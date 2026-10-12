@@ -189,6 +189,25 @@
 "occasion": "Wedding",
 "care": "Dry Clean Only"
   },
+   {
+    "id": "Elegant-Sage-Royal-Sherwani",
+    "name": "Elegant Sage Royal Sherwani",
+    "category": "sherwani",
+    "description": "An exquisite black sherwani featuring full hand embroidery with premium embellishments,this statement piece embodies timeless elegance and refined luxury for weddings and special occasions.",
+    "price": 0,
+    "images": ["Elegant Sage Royal Sherwani.webp", "Elegant Sage Royal Sherwani1.webp", "Elegant Sage Royal Sherwani2.webp", "Elegant Sage Royal Sherwani3.webp", "Elegant Sage Royal Sherwani4.webp"],
+    "featured": true,
+    "stock": "made-to-order",
+    "shopifyVariantId": "",
+"whatsappText": "I'm interested in the Black Embroidered Sherwani",
+
+"fabric": "Premium rivera silk",
+"embroidery": "Hand Embroidery",
+"customization": "Available",
+"delivery": "20–25 Working Days",
+"occasion": "Wedding / Reception",
+"care": "Dry Clean Only"
+  },
   {
     "id": "midnight-navy-three-piece-suit",
     "name": "Midnight Navy Three-Piece Suit",
